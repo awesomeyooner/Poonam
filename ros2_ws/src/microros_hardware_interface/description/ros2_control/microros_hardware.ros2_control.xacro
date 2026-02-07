@@ -6,18 +6,31 @@
   <xacro:macro name="motor" params="name">
     <joint name="${name}">
 
+      <!-- Velocity Command -->
       <command_interface name="velocity">
         <param name="min">-1000</param>
         <param name="max">1000</param>
       </command_interface>
       
-      <state_interface name="velocity"/>
-      <state_interface name="position"/>
-      <!-- <state_interface name="effort"/> -->
+      <!-- Velocity State -->
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+
+      <!-- Position State -->
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      
+      <!-- Effort State -->
+      <state_interface name="effort">
+        <param name="initial_value">0.0</param>
+      </state_interface>
       
     </joint> 
   </xacro:macro>
 
+    <!-- If NOT in sim mode, use actual HW Interface -->
     <xacro:unless value="$(arg sim_mode)">
 
       <ros2_control name="${name}" type="system">
@@ -52,9 +65,10 @@
 
     </xacro:unless>
 
-    <!-- if in sim mode then use the sim stuff -->
+    <!-- If in sim mode, use Gazebo Sim HW Interface -->
     <xacro:if value="$(arg sim_mode)">
 
+      <!-- Setup ros2_control -->
       <ros2_control name="IgnitionSystem" type="system">
         <hardware>
           <plugin>ign_ros2_control/IgnitionSystem</plugin>
@@ -64,10 +78,14 @@
         <xacro:motor name="right_wheel_joint"/>
         
       </ros2_control>
-  
+      
+      <!-- Setup Gazebo -->
       <gazebo>
         <plugin name="ign_ros2_control::IgnitionROS2ControlPlugin" filename="ign_ros2_control-system">
+          <!-- Controller Settings -->
           <parameters>$(find microros_hardware_interface)/bringup/config/controllers.yaml</parameters>
+
+          <!-- Enables Sim Time = True -->
           <parameters>$(find microros_hardware_interface)/bringup/config/gazebo_controller.yaml</parameters>
         </plugin>
       </gazebo>
