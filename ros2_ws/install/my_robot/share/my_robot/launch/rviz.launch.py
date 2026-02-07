@@ -1,1 +1,0 @@
-/home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot/launch/rviz.launch.py

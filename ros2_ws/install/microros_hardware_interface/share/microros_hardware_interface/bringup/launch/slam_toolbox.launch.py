@@ -1,1 +1,0 @@
-/home/dev/Documents/GitHub/Poonam/ros2_ws/src/microros_hardware_interface/bringup/launch/slam_toolbox.launch.py

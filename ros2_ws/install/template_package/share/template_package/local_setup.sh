@@ -1,1 +1,0 @@
-/home/dev/Documents/GitHub/Poonam/ros2_ws/build/template_package/ament_cmake_environment_hooks/local_setup.sh

@@ -1,1 +1,0 @@
-/home/dev/Documents/GitHub/Poonam/ros2_ws/src/depthai_driver/launch/camera_driver.launch.py

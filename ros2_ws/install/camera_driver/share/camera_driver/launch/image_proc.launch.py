@@ -1,1 +1,0 @@
-/home/dev/Documents/GitHub/Poonam/ros2_ws/src/camera_driver/launch/image_proc.launch.py

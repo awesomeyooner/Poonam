@@ -1,1 +1,0 @@
-/home/dev/Documents/GitHub/Poonam/ros2_ws/src/template_package/launch/launch_sim.launch.py

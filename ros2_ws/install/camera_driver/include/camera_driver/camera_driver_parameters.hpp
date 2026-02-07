@@ -1,1 +1,0 @@
-/home/dev/Documents/GitHub/Poonam/ros2_ws/build/camera_driver/include/camera_driver/camera_driver_parameters.hpp
