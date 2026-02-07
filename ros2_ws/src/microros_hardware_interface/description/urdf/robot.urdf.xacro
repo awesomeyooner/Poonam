@@ -21,7 +21,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 ${PI/2}"/>
         <geometry>
-          <mesh filename="file://$(find microros_hardware_interface)/description/urdf/assets/chassis/Chassis.stl"/>
+          <mesh filename="file://$(find microros_hardware_interface)/description/urdf/assets/chassis/Chassis.dae"/>
         </geometry>
         <cast_shadows>false</cast_shadows>
         <material name="grey"/>
@@ -44,7 +44,7 @@
     <joint name="${prefix}chassis_joint" type="fixed">
       <parent link="${prefix}base_link"/>
       <child link="${prefix}chassis_link"/>
-      <origin xyz="0 0 ${.0199 + wheel_radius}" rpy="0 0 ${PI}"/>
+      <origin xyz="0 0 ${wheel_radius}" rpy="0 0 ${PI}"/>
       <axis xyz="0 0 1"/>
       <dynamics damping="${damping}"/>
     </joint>

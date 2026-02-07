@@ -1,0 +1,139 @@
+[0.041s] Invoking command in '/home/dev/Documents/GitHub/Poonam/ros2_ws/build/differential_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller
+[0.148s] -- The C compiler identification is GNU 11.4.0
+[0.225s] -- The CXX compiler identification is GNU 11.4.0
+[0.235s] -- Detecting C compiler ABI info
+[0.362s] -- Detecting C compiler ABI info - done
+[0.374s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.374s] -- Detecting C compile features
+[0.374s] -- Detecting C compile features - done
+[0.378s] -- Detecting CXX compiler ABI info
+[0.512s] -- Detecting CXX compiler ABI info - done
+[0.521s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.522s] -- Detecting CXX compile features
+[0.522s] -- Detecting CXX compile features - done
+[0.531s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.046s] -- Found Python3: /home/dev/anaconda3/bin/python3 (found version "3.12.2") found components: Interpreter 
+[1.172s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.238s] -- Found control_toolbox: 3.6.1 (/opt/ros/humble/share/control_toolbox/cmake)
+[1.341s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.350s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.366s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.387s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.412s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.507s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.516s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.682s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.739s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.808s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.826s] -- Looking for pthread.h
+[1.978s] -- Looking for pthread.h - found
+[1.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.116s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.123s] -- Found Threads: TRUE  
+[2.584s] -- Found controller_interface: 2.50.0 (/opt/ros/humble/share/controller_interface/cmake)
+[2.618s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.681s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[2.700s] -- Found tf2_msgs: 0.25.12 (/opt/ros/humble/share/tf2_msgs/cmake)
+[2.752s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.852s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.905s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.908s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.909s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.951s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.956s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.961s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.973s] -- Found ros2_control_test_assets: 2.50.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[2.981s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.299s] -- Configuring done
+[3.379s] -- Generating done
+[3.399s] -- Build files have been written to: /home/dev/Documents/GitHub/Poonam/ros2_ws/build/differential_drive_controller
+[3.451s] Invoked command in '/home/dev/Documents/GitHub/Poonam/ros2_ws/build/differential_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller
+[3.451s] Invoking command in '/home/dev/Documents/GitHub/Poonam/ros2_ws/build/differential_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dev/Documents/GitHub/Poonam/ros2_ws/build/differential_drive_controller -- -j16 -l16
+[3.595s] [ 10%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/dev/Documents/GitHub/Poonam/ros2_ws/build/differential_drive_controller/include/differential_drive_controller/differential_drive_controller_parameters.hpp /home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller_parameters.yaml custom_validators.hpp`[0m
+[3.597s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.612s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.850s] [ 40%] [34m[1mCreating deprecated header file /home/dev/Documents/GitHub/Poonam/ros2_ws/build/differential_drive_controller/include/differential_drive_controller_parameters.hpp[0m
+[5.027s] [ 40%] Built target differential_drive_controller_parameters
+[5.101s] [ 50%] [32mBuilding CXX object CMakeFiles/differential_drive_controller.dir/src/differential_drive_controller.cpp.o[0m
+[5.667s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.921s] [ 60%] Built target gtest_main
+[9.895s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.170s] [ 70%] Built target gtest
+[11.342s] In file included from [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/../include/differential_drive_controller/differential_drive_controller.hpp:23[m[K,
+[11.342s]                  from [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller.cpp:1[m[K:
+[11.342s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/../include/differential_drive_controller/util/utility.hpp:[m[K In static member function ‘[01m[Kstatic void utility::WheelHandle::set_command(double, std::vector<utility::WheelHandle>)[m[K’:
+[11.342s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/../include/differential_drive_controller/util/utility.hpp:27:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<utility::WheelHandle>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.343s]    27 |             for(int i = 0; [01;35m[Ki < wheel_handles.size()[m[K; i++){
+[11.343s]       |                            [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.456s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type differential_drive_controller::DifferentialDriveController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[11.457s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller.cpp:62:127:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.457s]    62 |     controller_interface::return_type DifferentialDriveController::update(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K) {
+[11.457s]       |                                                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[11.457s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn differential_drive_controller::DifferentialDriveController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[11.458s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller.cpp:120:116:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.458s]   120 |     controller_interface::CallbackReturn DifferentialDriveController::on_configure([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K){
+[11.458s]       |                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[11.458s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn differential_drive_controller::DifferentialDriveController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[11.458s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller.cpp:153:115:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.458s]   153 |     controller_interface::CallbackReturn DifferentialDriveController::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K){
+[11.458s]       |                                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[11.458s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn differential_drive_controller::DifferentialDriveController::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[11.458s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller.cpp:170:117:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.458s]   170 |     controller_interface::CallbackReturn DifferentialDriveController::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K){
+[11.459s]       |                                                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[11.459s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn differential_drive_controller::DifferentialDriveController::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[11.459s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller.cpp:178:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.459s]   178 |     controller_interface::CallbackReturn DifferentialDriveController::on_cleanup([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K){
+[11.459s]       |                                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[11.459s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn differential_drive_controller::DifferentialDriveController::on_error(const rclcpp_lifecycle::State&)[m[K’:
+[11.459s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller.cpp:182:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.459s]   182 |     controller_interface::CallbackReturn DifferentialDriveController::on_error([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K){
+[11.459s]       |                                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[11.460s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn differential_drive_controller::DifferentialDriveController::on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[11.461s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/differential_drive_controller/src/differential_drive_controller.cpp:186:115:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.461s]   186 |     controller_interface::CallbackReturn DifferentialDriveController::on_shutdown([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K){
+[11.461s]       |                                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[20.927s] [ 80%] [32m[1mLinking CXX shared library libdifferential_drive_controller.so[0m
+[21.504s] [ 80%] Built target differential_drive_controller
+[21.531s] [ 90%] [32mBuilding CXX object CMakeFiles/differential_drive_controller_test.dir/test/test.cpp.o[0m
+[22.604s] [100%] [32m[1mLinking CXX executable differential_drive_controller_test[0m
+[23.195s] [100%] Built target differential_drive_controller_test
+[23.209s] Invoked command in '/home/dev/Documents/GitHub/Poonam/ros2_ws/build/differential_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dev/Documents/GitHub/Poonam/ros2_ws/build/differential_drive_controller -- -j16 -l16
+[23.211s] Invoking command in '/home/dev/Documents/GitHub/Poonam/ros2_ws/build/differential_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dev/Documents/GitHub/Poonam/ros2_ws/build/differential_drive_controller
+[23.221s] -- Install configuration: ""
+[23.221s] -- Execute custom install script
+[23.222s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/custom_validators.hpp
+[23.233s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller_parameters.hpp
+[23.244s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller//differential_drive_plugin.xml
+[23.255s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller/custom_validators.hpp
+[23.267s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller/differential_drive_controller.hpp
+[23.281s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller/util/differential_drive_drivetrain.hpp
+[23.293s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller/util/differential_drive_kinematics.hpp
+[23.306s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller/util/differential_drive_odometry.hpp
+[23.317s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller/util/utility.hpp
+[23.327s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller/visibility_control.h
+[23.337s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/environment/library_path.sh
+[23.337s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/environment/library_path.dsv
+[23.347s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/ament_index/resource_index/package_run_dependencies/differential_drive_controller
+[23.358s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/ament_index/resource_index/parent_prefix_path/differential_drive_controller
+[23.373s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/environment/ament_prefix_path.sh
+[23.373s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/environment/ament_prefix_path.dsv
+[23.384s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/environment/path.sh
+[23.384s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/environment/path.dsv
+[23.395s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/local_setup.bash
+[23.405s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/local_setup.sh
+[23.415s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/local_setup.zsh
+[23.425s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/local_setup.dsv
+[23.435s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/package.dsv
+[23.447s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/ament_index/resource_index/packages/differential_drive_controller
+[23.458s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/differential_drive_controller
+[23.470s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.484s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+[23.496s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/cmake/differential_drive_controllerConfig.cmake
+[23.506s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/cmake/differential_drive_controllerConfig-version.cmake
+[23.517s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/package.xml
+[23.528s] -- Installing: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/lib/libdifferential_drive_controller.so
+[23.540s] -- Set runtime path of "/home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/lib/libdifferential_drive_controller.so" to ""
+[23.540s] -- Installing: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/cmake/export_differential_drive_controllerExport.cmake
+[23.540s] -- Installing: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/cmake/export_differential_drive_controllerExport-noconfig.cmake
+[23.543s] Invoked command in '/home/dev/Documents/GitHub/Poonam/ros2_ws/build/differential_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dev/Documents/GitHub/Poonam/ros2_ws/build/differential_drive_controller

@@ -1,0 +1,137 @@
+[0.032s] Invoking command in '/home/dev/Documents/GitHub/Poonam/ros2_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.200s] -- The CXX compiler identification is GNU 11.4.0
+[0.210s] -- Detecting C compiler ABI info
+[0.340s] -- Detecting C compiler ABI info - done
+[0.350s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.350s] -- Detecting C compile features
+[0.352s] -- Detecting C compile features - done
+[0.355s] -- Detecting CXX compiler ABI info
+[0.485s] -- Detecting CXX compiler ABI info - done
+[0.493s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.493s] -- Detecting CXX compile features
+[0.494s] -- Detecting CXX compile features - done
+[0.499s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.128s] -- Found Python3: /home/dev/anaconda3/bin/python3 (found version "3.12.2") found components: Interpreter 
+[1.246s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.316s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.400s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.408s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.423s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.439s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.464s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.534s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.540s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.682s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.739s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.808s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.824s] -- Looking for pthread.h
+[1.914s] -- Looking for pthread.h - found
+[1.914s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.010s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.011s] -- Found Threads: TRUE  
+[2.086s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.150s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.283s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.284s] -- Configured cppcheck include dirs: 
+[2.284s] -- Configured cppcheck exclude dirs and/or files: 
+[2.285s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.287s] -- Added test 'lint_cmake' to check CMake code style
+[2.288s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.293s] -- Added test 'uncrustify' to check C / C++ code style
+[2.293s] -- Configured uncrustify additional arguments: 
+[2.294s] -- Added test 'xmllint' to check XML markup files
+[2.297s] -- Configuring done
+[2.332s] -- Generating done
+[2.342s] -- Build files have been written to: /home/dev/Documents/GitHub/Poonam/ros2_ws/build/my_robot
+[2.359s] Invoked command in '/home/dev/Documents/GitHub/Poonam/ros2_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot
+[2.361s] Invoking command in '/home/dev/Documents/GitHub/Poonam/ros2_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dev/Documents/GitHub/Poonam/ros2_ws/build/my_robot -- -j16 -l16
+[2.432s] [ 41%] [32mBuilding CXX object CMakeFiles/effort_translator.dir/src/util/EffortTranslator.cpp.o[0m
+[2.432s] [ 41%] [32mBuilding CXX object CMakeFiles/hardware_translator.dir/src/util/HardwareTranslator.cpp.o[0m
+[2.432s] [ 41%] [32mBuilding CXX object CMakeFiles/talker.dir/src/test/Publisher.cpp.o[0m
+[2.433s] [ 41%] [32mBuilding CXX object CMakeFiles/joystick_teleop.dir/src/util/Joystick.cpp.o[0m
+[2.433s] [ 41%] [32mBuilding CXX object CMakeFiles/listener.dir/src/test/Subscriber.cpp.o[0m
+[2.441s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_translator.dir/src/util/GazeboTranslator.cpp.o[0m
+[7.386s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot/src/test/Subscriber.cpp:[m[K In member function ‘[01m[Kvoid Subscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[7.386s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot/src/test/Subscriber.cpp:21:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.386s]    21 |     void topic_callback([01;35m[Kconst std_msgs::msg::String::SharedPtr message[m[K) const{
+[7.386s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[7.612s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot/src/util/GazeboTranslator.cpp:[m[K In constructor ‘[01m[KGazeboTranslator::GazeboTranslator()[m[K’:
+[7.612s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot/src/util/GazeboTranslator.cpp:36:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.612s]    36 |         for(int i = 0; [01;35m[Ki < joint_names.size()[m[K; i++){
+[7.612s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[7.652s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot/src/util/GazeboTranslator.cpp:[m[K In lambda function:
+[7.652s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot/src/util/GazeboTranslator.cpp:75:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.652s]    75 |             for(int i = 0; [01;35m[Ki < message.name.size()[m[K; i++){
+[7.652s]       |                            [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[7.919s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot/src/util/EffortTranslator.cpp:[m[K In member function ‘[01m[Kvoid EffortTranslator::topic_callback(const TwistStamped&) const[m[K’:
+[7.919s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot/src/util/EffortTranslator.cpp:59:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Float64_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.919s]    59 |       for(int i = 0; [01;35m[Ki < left_publishers.size()[m[K; i++){
+[7.920s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.920s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot/src/util/EffortTranslator.cpp:63:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Float64_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.920s]    63 |       for(int i = 0; [01;35m[Ki < right_publishers.size()[m[K; i++){
+[7.920s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.689s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot/src/util/HardwareTranslator.cpp:[m[K In constructor ‘[01m[KHardwareTranslator::HardwareTranslator()[m[K’:
+[8.692s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot/src/util/HardwareTranslator.cpp:36:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[8.692s]    36 |         for(int i = 0; [01;35m[Ki < joint_names.size()[m[K; i++){
+[8.692s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[8.701s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot/src/util/HardwareTranslator.cpp:[m[K In lambda function:
+[8.702s] [01m[K/home/dev/Documents/GitHub/Poonam/ros2_ws/src/my_robot/src/util/HardwareTranslator.cpp:80:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[8.702s]    80 |                 for(int i = 0; [01;35m[Ki < joint_names.size()[m[K; i++){
+[8.702s]       |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[11.821s] [ 58%] [32m[1mLinking CXX executable talker[0m
+[12.266s] [ 58%] Built target talker
+[16.904s] [ 66%] [32m[1mLinking CXX executable listener[0m
+[17.591s] [ 66%] Built target listener
+[18.037s] [ 75%] [32m[1mLinking CXX executable joystick_teleop[0m
+[18.348s] [ 83%] [32m[1mLinking CXX executable effort_translator[0m
+[18.673s] [ 83%] Built target joystick_teleop
+[18.940s] [ 83%] Built target effort_translator
+[18.976s] [ 91%] [32m[1mLinking CXX executable hardware_translator[0m
+[19.403s] [ 91%] Built target hardware_translator
+[21.276s] [100%] [32m[1mLinking CXX executable gazebo_translator[0m
+[21.800s] [100%] Built target gazebo_translator
+[21.813s] Invoked command in '/home/dev/Documents/GitHub/Poonam/ros2_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dev/Documents/GitHub/Poonam/ros2_ws/build/my_robot -- -j16 -l16
+[21.815s] Invoking command in '/home/dev/Documents/GitHub/Poonam/ros2_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dev/Documents/GitHub/Poonam/ros2_ws/build/my_robot
+[21.823s] -- Install configuration: ""
+[21.823s] -- Execute custom install script
+[21.823s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/lib/my_robot/talker
+[21.834s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/lib/my_robot/listener
+[21.849s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/lib/my_robot/effort_translator
+[21.861s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/lib/my_robot/joystick_teleop
+[21.872s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/lib/my_robot/gazebo_translator
+[21.882s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/lib/my_robot/hardware_translator
+[21.893s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//launch/depth_camera.launch.py
+[21.904s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//launch/effort_translator.launch.py
+[21.914s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//launch/gazebo_translator.launch.py
+[21.925s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//launch/hardware_translator.launch.py
+[21.937s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//launch/joystick.launch.py
+[21.951s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//launch/main.launch.py
+[21.963s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//launch/microros.launch.py
+[21.975s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//launch/rviz.launch.py
+[21.985s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//launch/simulation.launch.py
+[21.996s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//launch/twist_mux.launch.py
+[22.007s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//config/effort_translator.yaml
+[22.019s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//config/gazebo_params.yaml
+[22.029s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//config/hardware_translator.yaml
+[22.043s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//config/joystick.yaml
+[22.057s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//config/simtime.yaml
+[22.068s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//config/twist_mux.yaml
+[22.079s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//rviz/hello.txt
+[22.091s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot//worlds/hello.txt
+[22.102s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/ament_index/resource_index/package_run_dependencies/my_robot
+[22.112s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/ament_index/resource_index/parent_prefix_path/my_robot
+[22.123s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.sh
+[22.123s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.dsv
+[22.133s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot/environment/path.sh
+[22.133s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot/environment/path.dsv
+[22.148s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot/local_setup.bash
+[22.160s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot/local_setup.sh
+[22.171s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot/local_setup.zsh
+[22.181s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot/local_setup.dsv
+[22.192s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot/package.dsv
+[22.203s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/ament_index/resource_index/packages/my_robot
+[22.213s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot/cmake/my_robotConfig.cmake
+[22.223s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot/cmake/my_robotConfig-version.cmake
+[22.234s] -- Symlinking: /home/dev/Documents/GitHub/Poonam/ros2_ws/install/my_robot/share/my_robot/package.xml
+[22.252s] Invoked command in '/home/dev/Documents/GitHub/Poonam/ros2_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dev/Documents/GitHub/Poonam/ros2_ws/build/my_robot

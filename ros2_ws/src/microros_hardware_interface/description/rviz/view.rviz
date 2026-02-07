@@ -26,7 +26,7 @@ Panels:
     Experimental: false
     Name: Time
     SyncMode: 0
-    SyncSource: LaserScan
+    SyncSource: ""
   - Class: slam_toolbox::SlamToolboxPlugin
     Name: SlamToolboxPlugin
 Visualization Manager:
@@ -76,21 +76,7 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        camera_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        camera_link_optical:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
         chassis_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        laser_frame:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -105,43 +91,6 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        oakd:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        oakd-base-frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        oakd_imu_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        oakd_left_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        oakd_left_link_optical:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        oakd_rgb_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        oakd_rgb_link_optical:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        oakd_right_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        oakd_right_link_optical:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
         right_caster_wheel:
           Alpha: 1
           Show Axes: false
@@ -183,39 +132,11 @@ Visualization Manager:
           Value: true
         base_link:
           Value: true
-        camera_link:
-          Value: false
-        camera_link_optical:
-          Value: false
         chassis_link:
-          Value: false
-        laser_frame:
           Value: false
         left_caster_wheel:
           Value: false
         left_wheel:
-          Value: true
-        map:
-          Value: true
-        oakd:
-          Value: false
-        oakd-base-frame:
-          Value: false
-        oakd_imu_link:
-          Value: false
-        oakd_left_link:
-          Value: false
-        oakd_left_link_optical:
-          Value: false
-        oakd_rgb_link:
-          Value: false
-        oakd_rgb_link_optical:
-          Value: false
-        oakd_right_link:
-          Value: false
-        oakd_right_link_optical:
-          Value: false
-        odom:
           Value: true
         right_caster_wheel:
           Value: false
@@ -227,38 +148,18 @@ Visualization Manager:
       Show Axes: true
       Show Names: false
       Tree:
-        map:
-          odom:
-            base_link:
-              base_footprint:
-                {}
-              chassis_link:
-                camera_link:
-                  camera_link_optical:
-                    {}
-                laser_frame:
-                  {}
-                left_caster_wheel:
-                  {}
-                left_wheel:
-                  {}
-                oakd-base-frame:
-                  oakd:
-                    oakd_imu_link:
-                      {}
-                    oakd_left_link:
-                      oakd_left_link_optical:
-                        {}
-                    oakd_rgb_link:
-                      oakd_rgb_link_optical:
-                        {}
-                    oakd_right_link:
-                      oakd_right_link_optical:
-                        {}
-                right_caster_wheel:
-                  {}
-                right_wheel:
-                  {}
+        base_link:
+          base_footprint:
+            {}
+          chassis_link:
+            left_caster_wheel:
+              {}
+            left_wheel:
+              {}
+            right_caster_wheel:
+              {}
+            right_wheel:
+              {}
       Update Interval: 0
       Value: true
     - Angle Tolerance: 0.10000000149011612
@@ -358,7 +259,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: map
+    Fixed Frame: base_link
     Frame Rate: 30
   Name: root
   Tools:
@@ -400,21 +301,26 @@ Visualization Manager:
   Value: true
   Views:
     Current:
-      Angle: -1.5649993419647217
-      Class: rviz_default_plugins/TopDownOrtho
+      Class: rviz_default_plugins/Orbit
+      Distance: 1.469738483428955
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Focal Shape Fixed Size: false
+      Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Scale: 53.9609489440918
+      Pitch: 0.1053987368941307
       Target Frame: <Fixed Frame>
-      Value: TopDownOrtho (rviz_default_plugins)
-      X: 0.2693130075931549
-      Y: -1.238795518875122
+      Value: Orbit (rviz_default_plugins)
+      Yaw: 1.2853977680206299
     Saved: ~
 Window Geometry:
   Displays:
