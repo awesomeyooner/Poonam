@@ -1,0 +1,44 @@
+[ 20%] Built target differential_drive_controller_parameters
+[ 40%] Built target gtest_main
+[ 60%] Built target gtest
+[ 70%] [32mBuilding CXX object CMakeFiles/differential_drive_controller.dir/src/differential_drive_controller.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libdifferential_drive_controller.so[0m
+[ 80%] Built target differential_drive_controller
+[ 90%] [32m[1mLinking CXX executable differential_drive_controller_test[0m
+[100%] Built target differential_drive_controller_test
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/custom_validators.hpp
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller_parameters.hpp
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller//differential_drive_plugin.xml
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller/custom_validators.hpp
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller/differential_drive_controller.hpp
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller/util/differential_drive_drivetrain.hpp
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller/util/differential_drive_kinematics.hpp
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller/util/differential_drive_odometry.hpp
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller/util/utility.hpp
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/include/differential_drive_controller/differential_drive_controller/visibility_control.h
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/environment/library_path.sh
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/environment/library_path.dsv
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/ament_index/resource_index/package_run_dependencies/differential_drive_controller
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/ament_index/resource_index/parent_prefix_path/differential_drive_controller
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/environment/path.sh
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/environment/path.dsv
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/local_setup.bash
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/local_setup.sh
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/local_setup.zsh
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/local_setup.dsv
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/package.dsv
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/ament_index/resource_index/packages/differential_drive_controller
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/differential_drive_controller
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/cmake/differential_drive_controllerConfig.cmake
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/cmake/differential_drive_controllerConfig-version.cmake
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/package.xml
+-- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/lib/libdifferential_drive_controller.so
+-- Set runtime path of "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/lib/libdifferential_drive_controller.so" to ""
+-- Up-to-date: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/cmake/export_differential_drive_controllerExport.cmake
+-- Up-to-date: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/cmake/export_differential_drive_controllerExport-noconfig.cmake

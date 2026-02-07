@@ -1,0 +1,7 @@
+{
+  "package_name": "camera_driver_srvs",
+  "non_idl_tuples": [
+    "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/camera_driver_srvs:srv/ConfigureCamera.srv",
+    "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/camera_driver_srvs:srv/ReconfigureDefaults.srv"
+  ]
+}

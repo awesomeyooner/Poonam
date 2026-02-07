@@ -1,0 +1,9 @@
+setup.py
+camera_driver_srvs/__init__.py
+camera_driver_srvs.egg-info/PKG-INFO
+camera_driver_srvs.egg-info/SOURCES.txt
+camera_driver_srvs.egg-info/dependency_links.txt
+camera_driver_srvs.egg-info/top_level.txt
+camera_driver_srvs/srv/__init__.py
+camera_driver_srvs/srv/_configure_camera.py
+camera_driver_srvs/srv/_reconfigure_defaults.py

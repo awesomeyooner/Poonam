@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs/rosidl_generator_py/camera_driver_srvs/camera_driver_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "camera_driver_srvs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/camera_driver_srvs")

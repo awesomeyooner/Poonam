@@ -1,0 +1,206 @@
+[0.033s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/joystick_driver': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/joystick_driver -- -j16 -l16
+[0.061s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.236s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.243s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.274s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.276s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.282s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.304s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.333s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.335s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.447s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.486s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.515s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.601s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.602s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.603s] -- Configured cppcheck include dirs: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/include
+[0.603s] -- Configured cppcheck exclude dirs and/or files: 
+[0.605s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.605s] -- Configured cpplint exclude dirs and/or files: 
+[0.605s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.606s] -- Added test 'lint_cmake' to check CMake code style
+[0.607s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.608s] -- Added test 'uncrustify' to check C / C++ code style
+[0.608s] -- Configured uncrustify additional arguments: 
+[0.609s] -- Added test 'xmllint' to check XML markup files
+[0.610s] -- Configuring done
+[0.621s] -- Generating done
+[0.625s] -- Build files have been written to: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/joystick_driver
+[0.653s] [35m[1mConsolidate compiler generated dependencies of target joystick_teleop[0m
+[0.673s] [ 50%] [32mBuilding CXX object CMakeFiles/joystick_teleop.dir/src/Joystick.cpp.o[0m
+[4.068s] In file included from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/Joystick.cpp:9[m[K:
+[4.068s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/gamepad_interface.hpp:[m[K In constructor ‘[01m[Khid_devices::Button::Button(int, int)[m[K’:
+[4.068s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/gamepad_interface.hpp:37:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Khid_devices::Button::index[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.068s]    37 |         int [01;35m[Kindex[m[K;
+[4.068s]       |             [01;35m[K^~~~~[m[K
+[4.069s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/gamepad_interface.hpp:36:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint hid_devices::Button::id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.069s]    36 |         int [01;35m[Kid[m[K;
+[4.069s]       |             [01;35m[K^~[m[K
+[4.069s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/gamepad_interface.hpp:40:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.069s]    40 |         [01;35m[KButton[m[K(int index, int id) : index(index), id(id){}
+[4.069s]       |         [01;35m[K^~~~~~[m[K
+[4.069s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/gamepad_interface.hpp:[m[K In constructor ‘[01m[Khid_devices::Axis::Axis(int, int)[m[K’:
+[4.069s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/gamepad_interface.hpp:103:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Khid_devices::Axis::index[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.069s]   103 |             int [01;35m[Kindex[m[K;
+[4.069s]       |                 [01;35m[K^~~~~[m[K
+[4.070s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/gamepad_interface.hpp:77:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint hid_devices::Axis::id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.070s]    77 |         int [01;35m[Kid[m[K;
+[4.070s]       |             [01;35m[K^~[m[K
+[4.070s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/gamepad_interface.hpp:80:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.070s]    80 |         [01;35m[KAxis[m[K(int index, int id) : index(index), id(id){}
+[4.070s]       |         [01;35m[K^~~~[m[K
+[4.088s] In file included from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/Joystick.cpp:10[m[K:
+[4.088s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:[m[K At global scope:
+[4.088s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:23:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.088s]    23 |             [01;35m[K.[m[Kstick_left_x = 0,
+[4.088s]       |             [01;35m[K^[m[K
+[4.088s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:24:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.089s]    24 |             [01;35m[K.[m[Kstick_left_y = 1,
+[4.089s]       |             [01;35m[K^[m[K
+[4.089s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:25:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.089s]    25 |             [01;35m[K.[m[Kstick_right_x = 3,
+[4.089s]       |             [01;35m[K^[m[K
+[4.089s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:26:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.089s]    26 |             [01;35m[K.[m[Kstick_right_y = 4,
+[4.089s]       |             [01;35m[K^[m[K
+[4.089s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:28:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.089s]    28 |             [01;35m[K.[m[Ktrigger_left = 2,
+[4.089s]       |             [01;35m[K^[m[K
+[4.089s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:29:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.089s]    29 |             [01;35m[K.[m[Ktrigger_right = 5,
+[4.089s]       |             [01;35m[K^[m[K
+[4.090s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:31:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.090s]    31 |             [01;35m[K.[m[Kbumper_left = 5,
+[4.090s]       |             [01;35m[K^[m[K
+[4.090s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:32:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.090s]    32 |             [01;35m[K.[m[Kbumper_right = 6,
+[4.090s]       |             [01;35m[K^[m[K
+[4.090s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:34:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.090s]    34 |             [01;35m[K.[m[Kbutton_down = 0,
+[4.090s]       |             [01;35m[K^[m[K
+[4.090s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:35:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.090s]    35 |             [01;35m[K.[m[Kbutton_right = 1,
+[4.090s]       |             [01;35m[K^[m[K
+[4.090s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:36:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.090s]    36 |             [01;35m[K.[m[Kbutton_left = 3,
+[4.090s]       |             [01;35m[K^[m[K
+[4.090s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:37:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.090s]    37 |             [01;35m[K.[m[Kbutton_up = 2,
+[4.091s]       |             [01;35m[K^[m[K
+[4.091s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:39:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.091s]    39 |             [01;35m[K.[m[Kbutton_left_stick = 11,
+[4.091s]       |             [01;35m[K^[m[K
+[4.091s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:40:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.091s]    40 |             [01;35m[K.[m[Kbutton_right_stick = 12
+[4.091s]       |             [01;35m[K^[m[K
+[4.091s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:59:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.091s]    59 |             [01;35m[K.[m[Kstick_left_x = 0,
+[4.091s]       |             [01;35m[K^[m[K
+[4.091s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:60:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.091s]    60 |             [01;35m[K.[m[Kstick_left_y = 1,
+[4.091s]       |             [01;35m[K^[m[K
+[4.091s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:61:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.091s]    61 |             [01;35m[K.[m[Kstick_right_x = 3,
+[4.091s]       |             [01;35m[K^[m[K
+[4.091s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:62:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.091s]    62 |             [01;35m[K.[m[Kstick_right_y = 4,
+[4.091s]       |             [01;35m[K^[m[K
+[4.091s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:64:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.091s]    64 |             [01;35m[K.[m[Ktrigger_left = 2,
+[4.092s]       |             [01;35m[K^[m[K
+[4.092s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:65:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.092s]    65 |             [01;35m[K.[m[Ktrigger_right = 5,
+[4.092s]       |             [01;35m[K^[m[K
+[4.092s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:67:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.092s]    67 |             [01;35m[K.[m[Kbumper_left = 5,
+[4.092s]       |             [01;35m[K^[m[K
+[4.092s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:68:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.092s]    68 |             [01;35m[K.[m[Kbumper_right = 6,
+[4.092s]       |             [01;35m[K^[m[K
+[4.092s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:70:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.092s]    70 |             [01;35m[K.[m[Kbutton_down = 0,
+[4.092s]       |             [01;35m[K^[m[K
+[4.092s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:71:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.092s]    71 |             [01;35m[K.[m[Kbutton_right = 1,
+[4.092s]       |             [01;35m[K^[m[K
+[4.092s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:72:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.092s]    72 |             [01;35m[K.[m[Kbutton_left = 3,
+[4.092s]       |             [01;35m[K^[m[K
+[4.092s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:73:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.092s]    73 |             [01;35m[K.[m[Kbutton_up = 2,
+[4.092s]       |             [01;35m[K^[m[K
+[4.093s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:75:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.093s]    75 |             [01;35m[K.[m[Kbutton_left_stick = 9,
+[4.093s]       |             [01;35m[K^[m[K
+[4.093s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:76:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.093s]    76 |             [01;35m[K.[m[Kbutton_right_stick = 10
+[4.093s]       |             [01;35m[K^[m[K
+[4.093s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:96:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.093s]    96 |             [01;35m[K.[m[Kstick_left_x = 0,
+[4.093s]       |             [01;35m[K^[m[K
+[4.093s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:97:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.093s]    97 |             [01;35m[K.[m[Kstick_left_y = 1,
+[4.093s]       |             [01;35m[K^[m[K
+[4.093s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:98:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.093s]    98 |             [01;35m[K.[m[Kstick_right_x = 3,
+[4.093s]       |             [01;35m[K^[m[K
+[4.093s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:99:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.093s]    99 |             [01;35m[K.[m[Kstick_right_y = 4,
+[4.093s]       |             [01;35m[K^[m[K
+[4.093s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:101:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.093s]   101 |             [01;35m[K.[m[Ktrigger_left = 2,
+[4.093s]       |             [01;35m[K^[m[K
+[4.093s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:102:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.094s]   102 |             [01;35m[K.[m[Ktrigger_right = 5,
+[4.094s]       |             [01;35m[K^[m[K
+[4.094s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:104:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.094s]   104 |             [01;35m[K.[m[Kbumper_left = 5,
+[4.094s]       |             [01;35m[K^[m[K
+[4.094s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:105:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.094s]   105 |             [01;35m[K.[m[Kbumper_right = 6,
+[4.094s]       |             [01;35m[K^[m[K
+[4.094s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:107:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.094s]   107 |             [01;35m[K.[m[Kbutton_down = 0,
+[4.094s]       |             [01;35m[K^[m[K
+[4.094s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:108:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.094s]   108 |             [01;35m[K.[m[Kbutton_right = 1,
+[4.094s]       |             [01;35m[K^[m[K
+[4.094s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:109:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.094s]   109 |             [01;35m[K.[m[Kbutton_left = 3,
+[4.094s]       |             [01;35m[K^[m[K
+[4.094s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:110:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.094s]   110 |             [01;35m[K.[m[Kbutton_up = 2,
+[4.094s]       |             [01;35m[K^[m[K
+[4.094s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:112:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.094s]   112 |             [01;35m[K.[m[Kbutton_left_stick = 11,
+[4.095s]       |             [01;35m[K^[m[K
+[4.095s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/joystick_driver/src/../include/constants.hpp:113:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.095s]   113 |             [01;35m[K.[m[Kbutton_right_stick = 12
+[4.095s]       |             [01;35m[K^[m[K
+[11.566s] [100%] [32m[1mLinking CXX executable joystick_teleop[0m
+[12.137s] [100%] Built target joystick_teleop
+[12.153s] Invoked command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/joystick_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/joystick_driver -- -j16 -l16
+[12.159s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/joystick_driver': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/joystick_driver
+[12.169s] -- Install configuration: ""
+[12.169s] -- Execute custom install script
+[12.170s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/lib/joystick_driver/joystick_teleop
+[12.170s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/joystick_driver/config/joystick.yaml
+[12.170s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/joystick_driver/launch/joystick.launch.py
+[12.171s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/joystick_driver/src/Joystick.cpp
+[12.171s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/ament_index/resource_index/package_run_dependencies/joystick_driver
+[12.171s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/ament_index/resource_index/parent_prefix_path/joystick_driver
+[12.171s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/joystick_driver/environment/ament_prefix_path.sh
+[12.172s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/joystick_driver/environment/ament_prefix_path.dsv
+[12.172s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/joystick_driver/environment/path.sh
+[12.172s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/joystick_driver/environment/path.dsv
+[12.173s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/joystick_driver/local_setup.bash
+[12.173s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/joystick_driver/local_setup.sh
+[12.173s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/joystick_driver/local_setup.zsh
+[12.173s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/joystick_driver/local_setup.dsv
+[12.173s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/joystick_driver/package.dsv
+[12.190s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/ament_index/resource_index/packages/joystick_driver
+[12.190s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/joystick_driver/cmake/joystick_driverConfig.cmake
+[12.191s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/joystick_driver/cmake/joystick_driverConfig-version.cmake
+[12.191s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/joystick_driver/share/joystick_driver/package.xml
+[12.195s] Invoked command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/joystick_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/joystick_driver

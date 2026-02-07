@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/camera_driver_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_driver_srvs/srv/detail/dds_fastrtps/configure_camera__type_support.cpp.o"
+  "CMakeFiles/camera_driver_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_driver_srvs/srv/detail/dds_fastrtps/configure_camera__type_support.cpp.o.d"
+  "CMakeFiles/camera_driver_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_driver_srvs/srv/detail/dds_fastrtps/reconfigure_defaults__type_support.cpp.o"
+  "CMakeFiles/camera_driver_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_driver_srvs/srv/detail/dds_fastrtps/reconfigure_defaults__type_support.cpp.o.d"
+  "libcamera_driver_srvs__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libcamera_driver_srvs__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/camera_driver_srvs/srv/detail/configure_camera__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/camera_driver_srvs/srv/detail/dds_fastrtps/configure_camera__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/camera_driver_srvs/srv/detail/dds_fastrtps/reconfigure_defaults__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/camera_driver_srvs/srv/detail/reconfigure_defaults__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/camera_driver_srvs__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

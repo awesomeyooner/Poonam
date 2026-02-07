@@ -1,0 +1,78 @@
+[0.016s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver': AMENT_PREFIX_PATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/camera_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver
+[0.109s] -- The C compiler identification is GNU 11.4.0
+[0.192s] -- The CXX compiler identification is GNU 11.4.0
+[0.203s] -- Detecting C compiler ABI info
+[0.342s] -- Detecting C compiler ABI info - done
+[0.356s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.356s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.362s] -- Detecting CXX compiler ABI info
+[0.475s] -- Detecting CXX compiler ABI info - done
+[0.486s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.486s] -- Detecting CXX compile features
+[0.487s] -- Detecting CXX compile features - done
+[0.494s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.069s] -- Found Python3: /home/dev/anaconda3/bin/python3 (found version "3.12.2") found components: Interpreter 
+[1.185s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.224s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.289s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.294s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.303s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.315s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.331s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.385s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.387s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.500s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.551s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.616s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.627s] -- Looking for pthread.h
+[1.804s] -- Looking for pthread.h - found
+[1.805s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.006s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.008s] -- Found Threads: TRUE  
+[2.089s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.132s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.145s] -- Found OpenCV: /usr/local (found version "4.12.0") 
+[2.145s] -- Found camera_driver_srvs: 0.0.0 (/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake)
+[2.171s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[2.175s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.199s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.361s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.372s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.570s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.570s] -- Configured cppcheck include dirs: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/camera_driver/include;$<BUILD_INTERFACE:/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/camera_driver/include>
+[2.570s] -- Configured cppcheck exclude dirs and/or files: 
+[2.571s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.572s] -- Added test 'lint_cmake' to check CMake code style
+[2.574s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.577s] -- Added test 'uncrustify' to check C / C++ code style
+[2.577s] -- Configured uncrustify additional arguments: 
+[2.579s] -- Added test 'xmllint' to check XML markup files
+[2.583s] -- Configuring done
+[2.605s] [33mCMake Warning at CMakeLists.txt:41 (add_executable):
+[2.605s]   Cannot generate a safe runtime search path for target camera_driver_node
+[2.605s]   because files in some directories may conflict with libraries in implicit
+[2.605s]   directories:
+[2.605s] 
+[2.605s]     runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.606s]       /home/dev/anaconda3/lib
+[2.606s] 
+[2.606s]   Some of these libraries may not be found correctly.
+[2.606s] 
+[2.606s] [0m
+[2.608s] -- Generating done
+[2.616s] -- Build files have been written to: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver
+[2.639s] Invoked command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver' returned '0': AMENT_PREFIX_PATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/camera_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver
+[2.641s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver': AMENT_PREFIX_PATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver -- -j16 -l16
+[2.735s] [ 25%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver/include/camera_driver/camera_driver_parameters.hpp /home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/camera_driver/src/parameters.yaml `[0m
+[3.266s] [ 50%] [34m[1mCreating deprecated header file /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver/include/camera_driver_parameters.hpp[0m
+[3.347s] [ 50%] Built target camera_driver_parameters
+[3.402s] [ 75%] [32mBuilding CXX object CMakeFiles/camera_driver_node.dir/src/Main.cpp.o[0m
+[3.954s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/camera_driver/src/Main.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kcamera_driver/include/camera_driver/helpers/util.hpp: No such file or directory
+[3.954s]    11 | #include [01;31m[K<camera_driver/include/camera_driver/helpers/util.hpp>[m[K
+[3.954s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.954s] compilation terminated.
+[3.959s] gmake[2]: *** [CMakeFiles/camera_driver_node.dir/build.make:76: CMakeFiles/camera_driver_node.dir/src/Main.cpp.o] Error 1
+[3.960s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/camera_driver_node.dir/all] Error 2
+[3.960s] gmake: *** [Makefile:146: all] Error 2
+[3.970s] Invoked command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver' returned '2': AMENT_PREFIX_PATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver -- -j16 -l16

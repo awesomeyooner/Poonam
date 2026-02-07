@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1023685cf5f247fbc38f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "camera_driver_srvs__py",
+					"jsonFile" : "directory-camera_driver_srvs__py-300aeca64bd1f97d0b69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs/camera_driver_srvs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "camera_driver_srvs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_camera_driver_srvs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_camera_driver_srvs_egg-a6f574df5aa3a6daac1f.json",
+					"name" : "ament_cmake_python_build_camera_driver_srvs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_camera_driver_srvs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_camera_driver_srvs-3f8481c0a0286978c1fa.json",
+					"name" : "ament_cmake_python_symlink_camera_driver_srvs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_driver_srvs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_driver_srvs-bf0976f7de1f56b3740f.json",
+					"name" : "camera_driver_srvs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_driver_srvs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_driver_srvs__cpp-762038aeced58d587295.json",
+					"name" : "camera_driver_srvs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "camera_driver_srvs__py::@8cc9ac722d5a664f3e90",
+					"jsonFile" : "target-camera_driver_srvs__py-a79a244863b11c2428c4.json",
+					"name" : "camera_driver_srvs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_driver_srvs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_driver_srvs__rosidl_generator_c-fa568abc94d13d1cccba.json",
+					"name" : "camera_driver_srvs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_driver_srvs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_driver_srvs__rosidl_generator_py-4dd36359b217d8c9d167.json",
+					"name" : "camera_driver_srvs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_driver_srvs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_driver_srvs__rosidl_typesupport_c-c657744599212a2ec6fa.json",
+					"name" : "camera_driver_srvs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_driver_srvs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_driver_srvs__rosidl_typesupport_c__pyext-37082676f6a9519aa4a8.json",
+					"name" : "camera_driver_srvs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_driver_srvs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_driver_srvs__rosidl_typesupport_cpp-bbe0a5698fa62c489450.json",
+					"name" : "camera_driver_srvs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_driver_srvs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_driver_srvs__rosidl_typesupport_fastrtps_c-4d42d272d42360791da4.json",
+					"name" : "camera_driver_srvs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_driver_srvs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_driver_srvs__rosidl_typesupport_fastrtps_c__pyext-67b335a7ce1751ee85e4.json",
+					"name" : "camera_driver_srvs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_driver_srvs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_driver_srvs__rosidl_typesupport_fastrtps_cpp-027ca43341aba041f97a.json",
+					"name" : "camera_driver_srvs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_driver_srvs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_driver_srvs__rosidl_typesupport_introspection_c-9d5c7f4b759bb839d11c.json",
+					"name" : "camera_driver_srvs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_driver_srvs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_driver_srvs__rosidl_typesupport_introspection_c__pyext-7b9686e9b4db9a8f3c26.json",
+					"name" : "camera_driver_srvs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_driver_srvs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_driver_srvs__rosidl_typesupport_introspection_cpp-1daa081f9d01ec9fd6f6.json",
+					"name" : "camera_driver_srvs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_driver_srvs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_driver_srvs_uninstall-4c898c3135242ed0ca9c.json",
+					"name" : "camera_driver_srvs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-313a63cec7ea6a01fd30.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs",
+		"source" : "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/camera_driver_srvs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

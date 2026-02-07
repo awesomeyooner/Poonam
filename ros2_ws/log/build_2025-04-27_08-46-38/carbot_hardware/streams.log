@@ -1,0 +1,181 @@
+[0.029s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/carbot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware
+[0.108s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting CXX compiler ABI info
+[0.206s] -- Detecting CXX compiler ABI info - done
+[0.215s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.215s] -- Detecting CXX compile features
+[0.215s] -- Detecting CXX compile features - done
+[0.218s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.662s] -- Found Python3: /home/dev/anaconda3/bin/python3 (found version "3.12.2") found components: Interpreter 
+[0.763s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.799s] -- Found hardware_interface: 2.49.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.840s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.845s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.855s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.872s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.888s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.083s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.085s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.112s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.168s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.171s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.186s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.189s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.197s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.212s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.221s] -- Looking for C++ include pthread.h
+[1.305s] -- Looking for C++ include pthread.h - found
+[1.306s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.407s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.408s] -- Found Threads: TRUE  
+[1.454s] -- Found nlohmann_json: /home/dev/anaconda3/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found suitable version "3.11.2", minimum required is "3.2.0") 
+[1.459s] -- Found nlohmann_json: /home/dev/anaconda3/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.2") 
+[1.461s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.476s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[1.476s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[1.476s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[1.476s]   using pip.
+[1.476s] Call Stack (most recent call first):
+[1.476s]   CMakeLists.txt:85 (ament_add_pytest_test)
+[1.476s] 
+[1.476s] [0m
+[1.489s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[1.489s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[1.489s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[1.489s]   using pip.
+[1.489s] Call Stack (most recent call first):
+[1.489s]   CMakeLists.txt:86 (ament_add_pytest_test)
+[1.489s] 
+[1.489s] [0m
+[1.582s] -- Configuring done
+[1.630s] -- Generating done
+[1.636s] -- Build files have been written to: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/carbot_hardware
+[1.648s] Invoked command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/carbot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware
+[1.650s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/carbot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/carbot_hardware -- -j16 -l16
+[1.719s] [ 50%] [32mBuilding CXX object CMakeFiles/carbot_hardware.dir/hardware/diffbot_system.cpp.o[0m
+[6.827s] In file included from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/diffbot_system.hpp:35[m[K,
+[6.827s]                  from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/diffbot_system.cpp:15[m[K:
+[6.827s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/arduino_comms.hpp:[m[K In member function ‘[01m[Kint ArduinoComms::findDifference(std::string, std::string)[m[K’:
+[6.827s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/arduino_comms.hpp:89:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.827s]    89 |       for (int i = 0; [01;35m[Ki < str1.length()[m[K; ++i) {
+[6.827s]       |                       [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[6.927s] In file included from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/devices/Motor.hpp:4[m[K,
+[6.928s]                  from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/diffbot_system.hpp:37[m[K,
+[6.928s]                  from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/diffbot_system.cpp:15[m[K:
+[6.928s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/devices/Device.hpp:[m[K In member function ‘[01m[Kvirtual void hardware_component::Device::apply(ArduinoUtility::ArduinoMessage)[m[K’:
+[6.928s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/devices/Device.hpp:42:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.928s]    42 |             virtual void apply([01;35m[KArduinoUtility::ArduinoMessage message[m[K){}
+[6.928s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.931s] In file included from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/diffbot_system.hpp:38[m[K,
+[6.932s]                  from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/diffbot_system.cpp:15[m[K:
+[6.932s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/devices/Sensor.hpp:[m[K In member function ‘[01m[KArduinoUtility::ArduinoMessage hardware_component::Sensor::send_message(std::string, double)[m[K’:
+[6.932s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/devices/Sensor.hpp:33:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktype_value[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.932s]    33 |             ArduinoUtility::ArduinoMessage send_message([01;35m[Kstd::string type_value[m[K, double value){
+[6.932s]       |                                                         [01;35m[K~~~~~~~~~~~~^~~~~~~~~~[m[K
+[6.932s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/devices/Sensor.hpp:33:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.932s]    33 |             ArduinoUtility::ArduinoMessage send_message(std::string type_value, [01;35m[Kdouble value[m[K){
+[6.932s]       |                                                                                 [01;35m[K~~~~~~~^~~~~[m[K
+[6.941s] In file included from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/subsystems/Superstructure.hpp:6[m[K,
+[6.941s]                  from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/diffbot_system.hpp:40[m[K,
+[6.941s]                  from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/diffbot_system.cpp:15[m[K:
+[6.941s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/subsystems/Subsystem.hpp:[m[K In member function ‘[01m[Kvirtual void subsystem::Subsystem::initialize(ArduinoUtility::Config)[m[K’:
+[6.941s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/subsystems/Subsystem.hpp:28:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconfig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.941s]    28 |             virtual void initialize([01;35m[KArduinoUtility::Config config[m[K){
+[6.941s]       |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.941s] In file included from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/subsystems/Superstructure.hpp:6[m[K,
+[6.942s]                  from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/diffbot_system.hpp:40[m[K,
+[6.942s]                  from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/diffbot_system.cpp:15[m[K:
+[6.942s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/subsystems/Subsystem.hpp:[m[K In member function ‘[01m[Kvirtual void subsystem::Subsystem::applyToAll(ArduinoUtility::ArduinoMessage)[m[K’:
+[6.942s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/subsystems/Subsystem.hpp:32:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.942s]    32 |             virtual void applyToAll([01;35m[KArduinoUtility::ArduinoMessage message[m[K){
+[6.942s]       |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.967s] In file included from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/subsystems/SystemManager.hpp:13[m[K,
+[6.967s]                  from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/subsystems/Superstructure.hpp:14[m[K,
+[6.967s]                  from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/diffbot_system.hpp:40[m[K,
+[6.967s]                  from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/diffbot_system.cpp:15[m[K:
+[6.968s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/devices/HeartbeatMonitor.hpp:[m[K In member function ‘[01m[KArduinoUtility::ArduinoMessage hardware_component::HeartbeatMonitor::send_message(std::string, double)[m[K’:
+[6.968s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/devices/HeartbeatMonitor.hpp:31:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktype_value[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.968s]    31 |             ArduinoUtility::ArduinoMessage send_message([01;35m[Kstd::string type_value[m[K, double value){
+[6.968s]       |                                                         [01;35m[K~~~~~~~~~~~~^~~~~~~~~~[m[K
+[6.971s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/devices/HeartbeatMonitor.hpp:31:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.971s]    31 |             ArduinoUtility::ArduinoMessage send_message(std::string type_value, [01;35m[Kdouble value[m[K){
+[6.971s]       |                                                                                 [01;35m[K~~~~~~~^~~~~[m[K
+[6.992s] In file included from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/diffbot_system.hpp:40[m[K,
+[6.992s]                  from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/diffbot_system.cpp:15[m[K:
+[6.992s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/subsystems/Superstructure.hpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> subsystem::Superstructure::getCommandInterfaces()[m[K’:
+[6.992s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/include/carbot_hardware/subsystems/Superstructure.hpp:74:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<hardware_interface::CommandInterface>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.992s]    74 |                     for(int i = 0; [01;35m[Ki < currentCommandInterface.size()[m[K; i++){
+[6.992s]       |                                    [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.003s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type carbot_hardware::CarlikeBotSystemHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[7.003s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/carbot_hardware/hardware/diffbot_system.cpp:84:120:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.003s]    84 | hardware_interface::return_type CarlikeBotSystemHardware::read(const rclcpp::Time & /*time*/, [01;35m[Kconst rclcpp::Duration & period[m[K){
+[7.003s]       |                                                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[11.205s] [100%] [32m[1mLinking CXX shared library libcarbot_hardware.so[0m
+[11.673s] [100%] Built target carbot_hardware
+[11.702s] Invoked command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/carbot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/carbot_hardware -- -j16 -l16
+[11.703s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/carbot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/carbot_hardware
+[11.713s] -- Install configuration: ""
+[11.714s] -- Execute custom install script
+[11.714s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware//carbot_hardware.xml
+[11.730s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/include/carbot_hardware/carbot_hardware/arduino_comms.hpp
+[11.744s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/include/carbot_hardware/carbot_hardware/arduino_interface_types.hpp
+[11.757s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/include/carbot_hardware/carbot_hardware/constants.hpp
+[11.771s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/include/carbot_hardware/carbot_hardware/devices/Device.hpp
+[11.796s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/include/carbot_hardware/carbot_hardware/devices/HeartbeatMonitor.hpp
+[11.811s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/include/carbot_hardware/carbot_hardware/devices/Motor.hpp
+[11.825s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/include/carbot_hardware/carbot_hardware/devices/Sensor.hpp
+[11.838s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/include/carbot_hardware/carbot_hardware/diffbot_system.hpp
+[11.851s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/include/carbot_hardware/carbot_hardware/subsystems/Drive.hpp
+[11.865s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/include/carbot_hardware/carbot_hardware/subsystems/Subsystem.hpp
+[11.878s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/include/carbot_hardware/carbot_hardware/subsystems/Superstructure.hpp
+[11.895s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/include/carbot_hardware/carbot_hardware/subsystems/SystemManager.hpp
+[11.908s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/include/carbot_hardware/carbot_hardware/visibility_control.h
+[11.924s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/launch/view_robot.launch.py
+[11.937s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/ros2_control/carlikebot.ros2_control.xacro
+[11.963s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/urdf/assets/Chassis.stl
+[11.987s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/urdf/assets/Wheel.stl
+[12.001s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/urdf/components/camera.xacro
+[12.028s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/urdf/components/depth_camera.xacro
+[12.044s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/urdf/components/lidar.xacro
+[12.058s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/urdf/core.urdf.xacro
+[12.073s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/urdf/robot.urdf.xacro
+[12.090s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/urdf/util/carlikebot.materials.xacro
+[12.105s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/urdf/util/constants.xacro
+[12.122s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/launch/carlikebot.launch.py
+[12.142s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/launch/carlikebot_sim.launch.py
+[12.160s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/launch/carlikebot_test.launch.py
+[12.177s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/launch/controller_manager.launch.py
+[12.198s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/launch/robot_state_publisher.launch.py
+[12.219s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/config/carlikebot_controllers.yaml
+[12.240s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/config/gazebo_controller.yaml
+[12.257s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/bringup/config/carlikebot_controllers.yaml
+[12.272s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/bringup/config/gazebo_controller.yaml
+[12.289s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/bringup/launch/carlikebot.launch.py
+[12.307s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/bringup/launch/carlikebot_sim.launch.py
+[12.324s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/bringup/launch/carlikebot_test.launch.py
+[12.338s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/bringup/launch/controller_manager.launch.py
+[12.355s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/bringup/launch/robot_state_publisher.launch.py
+[12.373s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/environment/library_path.sh
+[12.390s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/environment/library_path.dsv
+[12.408s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/ament_index/resource_index/package_run_dependencies/carbot_hardware
+[12.424s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/ament_index/resource_index/parent_prefix_path/carbot_hardware
+[12.440s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/environment/ament_prefix_path.sh
+[12.456s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/environment/ament_prefix_path.dsv
+[12.470s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/environment/path.sh
+[12.487s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/environment/path.dsv
+[12.500s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/local_setup.bash
+[12.514s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/local_setup.sh
+[12.528s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/local_setup.zsh
+[12.541s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/local_setup.dsv
+[12.556s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/package.dsv
+[12.572s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/ament_index/resource_index/packages/carbot_hardware
+[12.585s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/carbot_hardware
+[12.600s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/cmake/ament_cmake_export_targets-extras.cmake
+[12.615s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.631s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/cmake/carbot_hardwareConfig.cmake
+[12.650s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/cmake/carbot_hardwareConfig-version.cmake
+[12.666s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/package.xml
+[12.691s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/lib/libcarbot_hardware.so
+[12.696s] -- Set runtime path of "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/lib/libcarbot_hardware.so" to ""
+[12.696s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/cmake/export_carbot_hardwareExport.cmake
+[12.696s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/cmake/export_carbot_hardwareExport-noconfig.cmake

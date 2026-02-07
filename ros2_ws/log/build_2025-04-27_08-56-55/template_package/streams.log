@@ -1,0 +1,83 @@
+[0.030s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/template_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/template_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package
+[0.110s] -- The C compiler identification is GNU 11.4.0
+[0.191s] -- The CXX compiler identification is GNU 11.4.0
+[0.200s] -- Detecting C compiler ABI info
+[0.272s] -- Detecting C compiler ABI info - done
+[0.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.281s] -- Detecting CXX compiler ABI info
+[0.370s] -- Detecting CXX compiler ABI info - done
+[0.377s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.377s] -- Detecting CXX compile features
+[0.377s] -- Detecting CXX compile features - done
+[0.381s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.564s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.638s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.668s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.754s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.761s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.762s] -- Added test 'lint_cmake' to check CMake code style
+[0.763s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.767s] -- Added test 'xmllint' to check XML markup files
+[0.770s] -- Configuring done
+[0.772s] -- Generating done
+[0.774s] -- Build files have been written to: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/template_package
+[0.779s] Invoked command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/template_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/template_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package
+[0.781s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/template_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/template_package -- -j16 -l16
+[0.826s] Invoked command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/template_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/template_package -- -j16 -l16
+[0.828s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/template_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/template_package
+[0.834s] -- Install configuration: ""
+[0.834s] -- Execute custom install script
+[0.835s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/config/ball_tracker_params_robot.yaml
+[0.845s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/config/ball_tracker_params_sim.yaml
+[0.853s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/config/drive_bot.rviz
+[0.861s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/config/empty.yaml
+[0.869s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/config/gaz_ros2_ctl_use_sim.yaml
+[0.879s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/config/gazebo_params.yaml
+[0.892s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/config/joystick.yaml
+[0.904s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/config/main.rviz
+[0.919s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/config/map.rviz
+[0.933s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/config/mapper_params_online_async.yaml
+[0.947s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/config/my_controllers.yaml
+[0.957s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/config/nav2_params.yaml
+[0.967s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/config/twist_mux.yaml
+[0.979s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/config/view_bot.rviz
+[0.997s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/description/camera.xacro
+[1.012s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/description/depth_camera.xacro
+[1.023s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/description/face.xacro
+[1.034s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/description/gazebo_control.xacro
+[1.044s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/description/inertial_macros.xacro
+[1.055s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/description/lidar.xacro
+[1.065s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/description/robot.urdf.xacro
+[1.074s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/description/robot_core.xacro
+[1.085s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/description/ros2_control.xacro
+[1.100s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/launch/ball_tracker.launch.py
+[1.110s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/launch/basic_rsp.launch.py
+[1.126s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/launch/camera.launch.py
+[1.144s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/launch/joystick.launch.py
+[1.157s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/launch/launch_robot.launch.py
+[1.169s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/launch/launch_sim.launch.py
+[1.181s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/launch/localization_launch.py
+[1.193s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/launch/navigation_launch.py
+[1.206s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/launch/online_async_launch.py
+[1.219s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/launch/rplidar.launch.py
+[1.230s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/launch/rsp.launch.py
+[1.242s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/worlds/empty.world
+[1.253s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/worlds/obstacles.world
+[1.264s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/ament_index/resource_index/package_run_dependencies/template_package
+[1.275s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/ament_index/resource_index/parent_prefix_path/template_package
+[1.289s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/environment/ament_prefix_path.sh
+[1.310s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/environment/ament_prefix_path.dsv
+[1.321s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/environment/path.sh
+[1.334s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/environment/path.dsv
+[1.351s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/local_setup.bash
+[1.365s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/local_setup.sh
+[1.379s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/local_setup.zsh
+[1.395s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/local_setup.dsv
+[1.406s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/package.dsv
+[1.423s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/ament_index/resource_index/packages/template_package
+[1.434s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/cmake/template_packageConfig.cmake
+[1.448s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/cmake/template_packageConfig-version.cmake
+[1.459s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/template_package/share/template_package/package.xml
+[1.475s] Invoked command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/template_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/template_package

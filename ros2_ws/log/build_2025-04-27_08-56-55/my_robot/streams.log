@@ -1,0 +1,137 @@
+[0.029s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/my_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot
+[0.105s] -- The C compiler identification is GNU 11.4.0
+[0.186s] -- The CXX compiler identification is GNU 11.4.0
+[0.198s] -- Detecting C compiler ABI info
+[0.271s] -- Detecting C compiler ABI info - done
+[0.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.282s] -- Detecting CXX compiler ABI info
+[0.376s] -- Detecting CXX compiler ABI info - done
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.383s] -- Detecting CXX compile features
+[0.383s] -- Detecting CXX compile features - done
+[0.387s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.574s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.648s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.671s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.722s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.726s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.733s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.746s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.799s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.802s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.898s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.944s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.012s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.019s] -- Looking for pthread.h
+[1.111s] -- Looking for pthread.h - found
+[1.112s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.215s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.215s] -- Found Threads: TRUE  
+[1.265s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.309s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.410s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.415s] -- Configured cppcheck include dirs: 
+[1.415s] -- Configured cppcheck exclude dirs and/or files: 
+[1.415s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.419s] -- Added test 'lint_cmake' to check CMake code style
+[1.425s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.426s] -- Added test 'uncrustify' to check C / C++ code style
+[1.426s] -- Configured uncrustify additional arguments: 
+[1.427s] -- Added test 'xmllint' to check XML markup files
+[1.427s] -- Configuring done
+[1.466s] -- Generating done
+[1.482s] -- Build files have been written to: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/my_robot
+[1.499s] Invoked command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/my_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot
+[1.505s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/my_robot -- -j16 -l16
+[1.581s] [ 16%] [32mBuilding CXX object CMakeFiles/hardware_translator.dir/src/util/HardwareTranslator.cpp.o[0m
+[1.581s] [ 16%] [32mBuilding CXX object CMakeFiles/talker.dir/src/test/Publisher.cpp.o[0m
+[1.582s] [ 33%] [32mBuilding CXX object CMakeFiles/gazebo_translator.dir/src/util/GazeboTranslator.cpp.o[0m
+[1.582s] [ 33%] [32mBuilding CXX object CMakeFiles/joystick_teleop.dir/src/util/Joystick.cpp.o[0m
+[1.582s] [ 41%] [32mBuilding CXX object CMakeFiles/effort_translator.dir/src/util/EffortTranslator.cpp.o[0m
+[1.585s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/test/Subscriber.cpp.o[0m
+[5.601s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/my_robot/src/util/EffortTranslator.cpp:[m[K In member function ‘[01m[Kvoid EffortTranslator::topic_callback(const TwistStamped&) const[m[K’:
+[5.601s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/my_robot/src/util/EffortTranslator.cpp:59:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Float64_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.601s]    59 |       for(int i = 0; [01;35m[Ki < left_publishers.size()[m[K; i++){
+[5.601s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.601s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/my_robot/src/util/EffortTranslator.cpp:63:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Float64_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.601s]    63 |       for(int i = 0; [01;35m[Ki < right_publishers.size()[m[K; i++){
+[5.601s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.117s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/my_robot/src/test/Subscriber.cpp:[m[K In member function ‘[01m[Kvoid Subscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[6.118s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/my_robot/src/test/Subscriber.cpp:21:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.118s]    21 |     void topic_callback([01;35m[Kconst std_msgs::msg::String::SharedPtr message[m[K) const{
+[6.118s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.271s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/my_robot/src/util/GazeboTranslator.cpp:[m[K In constructor ‘[01m[KGazeboTranslator::GazeboTranslator()[m[K’:
+[6.271s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/my_robot/src/util/GazeboTranslator.cpp:36:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.271s]    36 |         for(int i = 0; [01;35m[Ki < joint_names.size()[m[K; i++){
+[6.271s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[6.302s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/my_robot/src/util/GazeboTranslator.cpp:[m[K In lambda function:
+[6.303s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/my_robot/src/util/GazeboTranslator.cpp:75:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.304s]    75 |             for(int i = 0; [01;35m[Ki < message.name.size()[m[K; i++){
+[6.306s]       |                            [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.412s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/my_robot/src/util/HardwareTranslator.cpp:[m[K In constructor ‘[01m[KHardwareTranslator::HardwareTranslator()[m[K’:
+[6.413s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/my_robot/src/util/HardwareTranslator.cpp:36:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.413s]    36 |         for(int i = 0; [01;35m[Ki < joint_names.size()[m[K; i++){
+[6.413s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[6.426s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/my_robot/src/util/HardwareTranslator.cpp:[m[K In lambda function:
+[6.426s] [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/my_robot/src/util/HardwareTranslator.cpp:80:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.426s]    80 |                 for(int i = 0; [01;35m[Ki < joint_names.size()[m[K; i++){
+[6.426s]       |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[9.076s] [ 58%] [32m[1mLinking CXX executable talker[0m
+[9.413s] [ 58%] Built target talker
+[13.766s] [ 66%] [32m[1mLinking CXX executable effort_translator[0m
+[13.800s] [ 75%] [32m[1mLinking CXX executable listener[0m
+[14.521s] [ 83%] [32m[1mLinking CXX executable joystick_teleop[0m
+[14.533s] [ 83%] Built target listener
+[14.578s] [ 83%] Built target effort_translator
+[14.742s] [ 91%] [32m[1mLinking CXX executable hardware_translator[0m
+[15.009s] [ 91%] Built target joystick_teleop
+[15.182s] [ 91%] Built target hardware_translator
+[17.385s] [100%] [32m[1mLinking CXX executable gazebo_translator[0m
+[17.835s] [100%] Built target gazebo_translator
+[17.847s] Invoked command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/my_robot -- -j16 -l16
+[17.848s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/my_robot
+[17.855s] -- Install configuration: ""
+[17.856s] -- Execute custom install script
+[17.856s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/lib/my_robot/talker
+[17.867s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/lib/my_robot/listener
+[17.878s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/lib/my_robot/effort_translator
+[17.888s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/lib/my_robot/joystick_teleop
+[17.897s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/lib/my_robot/gazebo_translator
+[17.905s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/lib/my_robot/hardware_translator
+[17.915s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/depth_camera.launch.py
+[17.924s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/effort_translator.launch.py
+[17.934s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/gazebo_translator.launch.py
+[17.943s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/hardware_translator.launch.py
+[17.951s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/joystick.launch.py
+[17.960s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/main.launch.py
+[17.971s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/microros.launch.py
+[17.982s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/rviz.launch.py
+[17.991s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/simulation.launch.py
+[18.000s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/twist_mux.launch.py
+[18.009s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//config/effort_translator.yaml
+[18.018s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//config/gazebo_params.yaml
+[18.027s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//config/hardware_translator.yaml
+[18.036s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//config/joystick.yaml
+[18.045s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//config/simtime.yaml
+[18.055s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//config/twist_mux.yaml
+[18.066s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//rviz/hello.txt
+[18.078s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//worlds/hello.txt
+[18.088s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/ament_index/resource_index/package_run_dependencies/my_robot
+[18.098s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/ament_index/resource_index/parent_prefix_path/my_robot
+[18.107s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.sh
+[18.116s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.dsv
+[18.124s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/environment/path.sh
+[18.133s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/environment/path.dsv
+[18.142s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/local_setup.bash
+[18.152s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/local_setup.sh
+[18.162s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/local_setup.zsh
+[18.173s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/local_setup.dsv
+[18.185s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/package.dsv
+[18.195s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/ament_index/resource_index/packages/my_robot
+[18.204s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/cmake/my_robotConfig.cmake
+[18.213s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/cmake/my_robotConfig-version.cmake
+[18.223s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/package.xml
+[18.235s] Invoked command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/my_robot

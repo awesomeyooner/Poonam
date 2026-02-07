@@ -1,0 +1,53 @@
+[35m[1mConsolidate compiler generated dependencies of target joystick_teleop[0m
+[35m[1mConsolidate compiler generated dependencies of target effort_translator[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target gazebo_translator[0m
+[35m[1mConsolidate compiler generated dependencies of target hardware_translator[0m
+[ 16%] Built target effort_translator
+[ 33%] Built target listener
+[ 50%] Built target talker
+[ 66%] Built target joystick_teleop
+[ 83%] Built target hardware_translator
+[100%] Built target gazebo_translator
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/lib/my_robot/talker
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/lib/my_robot/listener
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/lib/my_robot/effort_translator
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/lib/my_robot/joystick_teleop
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/lib/my_robot/gazebo_translator
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/lib/my_robot/hardware_translator
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/depth_camera.launch.py
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/effort_translator.launch.py
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/gazebo_translator.launch.py
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/hardware_translator.launch.py
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/joystick.launch.py
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/main.launch.py
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/microros.launch.py
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/rviz.launch.py
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/simulation.launch.py
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//launch/twist_mux.launch.py
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//config/effort_translator.yaml
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//config/gazebo_params.yaml
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//config/hardware_translator.yaml
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//config/joystick.yaml
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//config/simtime.yaml
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//config/twist_mux.yaml
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//rviz/hello.txt
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot//worlds/hello.txt
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/ament_index/resource_index/package_run_dependencies/my_robot
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/ament_index/resource_index/parent_prefix_path/my_robot
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.sh
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/environment/path.sh
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/environment/path.dsv
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/local_setup.bash
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/local_setup.sh
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/local_setup.zsh
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/local_setup.dsv
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/package.dsv
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/ament_index/resource_index/packages/my_robot
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/cmake/my_robotConfig.cmake
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/cmake/my_robotConfig-version.cmake
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/my_robot/share/my_robot/package.xml

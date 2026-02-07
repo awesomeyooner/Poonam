@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs/camera_driver_srvs__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "camera_driver_srvs::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "camera_driver_srvs__py::@8cc9ac722d5a664f3e90",
+	"name" : "camera_driver_srvs__py",
+	"paths" : 
+	{
+		"build" : "camera_driver_srvs__py",
+		"source" : "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs/camera_driver_srvs__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs/camera_driver_srvs__py/CMakeFiles/camera_driver_srvs__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs/camera_driver_srvs__py/CMakeFiles/camera_driver_srvs__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs/rosidl_generator_py/camera_driver_srvs/_camera_driver_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

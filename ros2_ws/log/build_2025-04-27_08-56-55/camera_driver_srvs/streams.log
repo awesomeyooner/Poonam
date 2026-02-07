@@ -1,0 +1,233 @@
+[0.034s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/camera_driver_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.179s] -- The CXX compiler identification is GNU 11.4.0
+[0.188s] -- Detecting C compiler ABI info
+[0.272s] -- Detecting C compiler ABI info - done
+[0.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.281s] -- Detecting CXX compiler ABI info
+[0.373s] -- Detecting CXX compiler ABI info - done
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.384s] -- Detecting CXX compile features - done
+[0.387s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.589s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.661s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.684s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.689s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.695s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.771s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.793s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.108s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.401s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.805s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.836s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.842s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.885s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.886s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.886s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.887s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.918s] -- Found PythonExtra: .so  
+[2.017s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.050s] -- Added test 'lint_cmake' to check CMake code style
+[2.051s] -- Added test 'xmllint' to check XML markup files
+[2.058s] -- Configuring done
+[2.119s] -- Generating done
+[2.139s] -- Build files have been written to: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs
+[2.154s] Invoked command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/camera_driver_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs
+[2.155s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs -- -j16 -l16
+[2.241s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.280s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.298s] [  5%] Built target ament_cmake_python_symlink_camera_driver_srvs
+[2.712s] running egg_info
+[2.712s] creating camera_driver_srvs.egg-info
+[2.713s] writing camera_driver_srvs.egg-info/PKG-INFO
+[2.713s] writing dependency_links to camera_driver_srvs.egg-info/dependency_links.txt
+[2.713s] writing top-level names to camera_driver_srvs.egg-info/top_level.txt
+[2.714s] writing manifest file 'camera_driver_srvs.egg-info/SOURCES.txt'
+[2.720s] reading manifest file 'camera_driver_srvs.egg-info/SOURCES.txt'
+[2.720s] writing manifest file 'camera_driver_srvs.egg-info/SOURCES.txt'
+[2.848s] [  5%] Built target ament_cmake_python_build_camera_driver_srvs_egg
+[2.868s] [  7%] [32mBuilding C object CMakeFiles/camera_driver_srvs__rosidl_generator_c.dir/rosidl_generator_c/camera_driver_srvs/srv/detail/reconfigure_defaults__functions.c.o[0m
+[2.874s] [ 10%] [32mBuilding C object CMakeFiles/camera_driver_srvs__rosidl_generator_c.dir/rosidl_generator_c/camera_driver_srvs/srv/detail/configure_camera__functions.c.o[0m
+[2.917s] [ 10%] Built target camera_driver_srvs__cpp
+[2.937s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.943s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.957s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.993s] [ 20%] [32m[1mLinking C shared library libcamera_driver_srvs__rosidl_generator_c.so[0m
+[3.077s] [ 20%] Built target camera_driver_srvs__rosidl_generator_c
+[3.108s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.109s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.113s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.643s] [ 30%] [32mBuilding CXX object CMakeFiles/camera_driver_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_driver_srvs/srv/detail/dds_fastrtps/reconfigure_defaults__type_support.cpp.o[0m
+[3.655s] [ 33%] [32mBuilding CXX object CMakeFiles/camera_driver_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_driver_srvs/srv/detail/dds_fastrtps/configure_camera__type_support.cpp.o[0m
+[3.668s] [ 35%] [32mBuilding CXX object CMakeFiles/camera_driver_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/camera_driver_srvs/srv/configure_camera__type_support.cpp.o[0m
+[3.685s] [ 38%] [32mBuilding CXX object CMakeFiles/camera_driver_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/camera_driver_srvs/srv/reconfigure_defaults__type_support.cpp.o[0m
+[3.704s] [ 41%] [32mBuilding CXX object CMakeFiles/camera_driver_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/camera_driver_srvs/srv/detail/configure_camera__type_support.cpp.o[0m
+[3.721s] [ 43%] [32mBuilding CXX object CMakeFiles/camera_driver_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/camera_driver_srvs/srv/detail/reconfigure_defaults__type_support.cpp.o[0m
+[3.913s] [ 46%] [32mBuilding CXX object CMakeFiles/camera_driver_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/camera_driver_srvs/srv/detail/reconfigure_defaults__type_support_c.cpp.o[0m
+[3.918s] [ 48%] [32mBuilding CXX object CMakeFiles/camera_driver_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/camera_driver_srvs/srv/detail/configure_camera__type_support_c.cpp.o[0m
+[3.985s] [ 51%] [32mBuilding C object CMakeFiles/camera_driver_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/camera_driver_srvs/srv/detail/configure_camera__type_support.c.o[0m
+[3.996s] [ 53%] [32mBuilding C object CMakeFiles/camera_driver_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/camera_driver_srvs/srv/detail/reconfigure_defaults__type_support.c.o[0m
+[4.008s] [ 56%] [32mBuilding CXX object CMakeFiles/camera_driver_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/camera_driver_srvs/srv/configure_camera__type_support.cpp.o[0m
+[4.019s] [ 58%] [32mBuilding CXX object CMakeFiles/camera_driver_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/camera_driver_srvs/srv/reconfigure_defaults__type_support.cpp.o[0m
+[4.122s] [ 61%] [32m[1mLinking CXX shared library libcamera_driver_srvs__rosidl_typesupport_c.so[0m
+[4.127s] [ 64%] [32m[1mLinking C shared library libcamera_driver_srvs__rosidl_typesupport_introspection_c.so[0m
+[4.258s] [ 64%] Built target camera_driver_srvs__rosidl_typesupport_introspection_c
+[4.279s] [ 64%] Built target camera_driver_srvs__rosidl_typesupport_c
+[4.507s] [ 66%] [32m[1mLinking CXX shared library libcamera_driver_srvs__rosidl_typesupport_cpp.so[0m
+[4.600s] [ 69%] [32m[1mLinking CXX shared library libcamera_driver_srvs__rosidl_typesupport_introspection_cpp.so[0m
+[4.616s] [ 69%] Built target camera_driver_srvs__rosidl_typesupport_cpp
+[4.721s] [ 69%] Built target camera_driver_srvs__rosidl_typesupport_introspection_cpp
+[4.739s] [ 71%] [32m[1mLinking CXX shared library libcamera_driver_srvs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.823s] [ 74%] [32m[1mLinking CXX shared library libcamera_driver_srvs__rosidl_typesupport_fastrtps_c.so[0m
+[4.903s] [ 74%] Built target camera_driver_srvs__rosidl_typesupport_fastrtps_cpp
+[5.002s] [ 74%] Built target camera_driver_srvs__rosidl_typesupport_fastrtps_c
+[5.044s] [ 74%] Built target camera_driver_srvs
+[5.093s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.834s] [ 76%] Built target camera_driver_srvs__py
+[5.878s] [ 79%] [32mBuilding C object CMakeFiles/camera_driver_srvs__rosidl_generator_py.dir/rosidl_generator_py/camera_driver_srvs/srv/_reconfigure_defaults_s.c.o[0m
+[5.882s] [ 82%] [32mBuilding C object CMakeFiles/camera_driver_srvs__rosidl_generator_py.dir/rosidl_generator_py/camera_driver_srvs/srv/_configure_camera_s.c.o[0m
+[6.091s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/camera_driver_srvs/libcamera_driver_srvs__rosidl_generator_py.so[0m
+[6.156s] [ 84%] Built target camera_driver_srvs__rosidl_generator_py
+[6.219s] [ 89%] [32mBuilding C object CMakeFiles/camera_driver_srvs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/camera_driver_srvs/_camera_driver_srvs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.219s] [ 89%] [32mBuilding C object CMakeFiles/camera_driver_srvs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/camera_driver_srvs/_camera_driver_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.227s] [ 92%] [32mBuilding C object CMakeFiles/camera_driver_srvs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/camera_driver_srvs/_camera_driver_srvs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.391s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/camera_driver_srvs/camera_driver_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.398s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/camera_driver_srvs/camera_driver_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.462s] [100%] [32m[1mLinking C shared library rosidl_generator_py/camera_driver_srvs/camera_driver_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.485s] [100%] Built target camera_driver_srvs__rosidl_typesupport_fastrtps_c__pyext
+[6.485s] [100%] Built target camera_driver_srvs__rosidl_typesupport_c__pyext
+[6.529s] [100%] Built target camera_driver_srvs__rosidl_typesupport_introspection_c__pyext
+[6.567s] Invoked command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs -- -j16 -l16
+[6.568s] Invoking command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs
+[6.587s] -- Install configuration: ""
+[6.587s] -- Execute custom install script
+[6.587s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/ament_index/resource_index/rosidl_interfaces/camera_driver_srvs
+[6.612s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/msg/rosidl_generator_c__visibility_control.h
+[6.628s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/configure_camera.h
+[6.644s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/configure_camera__functions.h
+[6.662s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/configure_camera__struct.h
+[6.680s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/configure_camera__type_support.h
+[6.695s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/reconfigure_defaults__functions.h
+[6.716s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/reconfigure_defaults__struct.h
+[6.734s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/reconfigure_defaults__type_support.h
+[6.753s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/reconfigure_defaults.h
+[6.774s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/environment/library_path.sh
+[6.788s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/environment/library_path.dsv
+[6.808s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.826s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/configure_camera__rosidl_typesupport_fastrtps_c.h
+[6.844s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/reconfigure_defaults__rosidl_typesupport_fastrtps_c.h
+[6.858s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.876s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/configure_camera__rosidl_typesupport_introspection_c.h
+[6.896s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/reconfigure_defaults__rosidl_typesupport_introspection_c.h
+[6.917s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.935s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/configure_camera.hpp
+[6.951s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/configure_camera__builder.hpp
+[6.969s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/configure_camera__struct.hpp
+[6.987s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/configure_camera__traits.hpp
+[7.006s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/configure_camera__type_support.hpp
+[7.023s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/reconfigure_defaults__builder.hpp
+[7.041s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/reconfigure_defaults__struct.hpp
+[7.058s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/reconfigure_defaults__traits.hpp
+[7.078s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/reconfigure_defaults__type_support.hpp
+[7.095s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/reconfigure_defaults.hpp
+[7.116s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.133s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/configure_camera__rosidl_typesupport_fastrtps_cpp.hpp
+[7.150s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/reconfigure_defaults__rosidl_typesupport_fastrtps_cpp.hpp
+[7.188s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/configure_camera__rosidl_typesupport_introspection_cpp.hpp
+[7.204s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/include/camera_driver_srvs/camera_driver_srvs/srv/detail/reconfigure_defaults__rosidl_typesupport_introspection_cpp.hpp
+[7.220s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/environment/pythonpath.sh
+[7.235s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/environment/pythonpath.dsv
+[7.247s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs-0.0.0-py3.10.egg-info/PKG-INFO
+[7.263s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.278s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.300s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs-0.0.0-py3.10.egg-info/top_level.txt
+[7.313s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/__init__.py
+[7.329s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/_camera_driver_srvs_s.ep.rosidl_typesupport_c.c
+[7.345s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/_camera_driver_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.369s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/_camera_driver_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[7.383s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/camera_driver_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.400s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/camera_driver_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.419s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/camera_driver_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.438s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/libcamera_driver_srvs__rosidl_generator_py.so
+[7.454s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/srv/__init__.py
+[7.470s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/srv/_configure_camera.py
+[7.487s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/srv/_configure_camera_s.c
+[7.507s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/srv/_reconfigure_defaults.py
+[7.527s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/srv/_reconfigure_defaults_s.c
+[7.546s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/camera_driver_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.548s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/camera_driver_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.549s] -- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/camera_driver_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.549s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/srv/ConfigureCamera.idl
+[7.567s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/srv/ReconfigureDefaults.idl
+[7.587s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/srv/ConfigureCamera.srv
+[7.610s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/srv/ConfigureCamera_Request.msg
+[7.623s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/srv/ConfigureCamera_Response.msg
+[7.644s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/srv/ReconfigureDefaults.srv
+[7.666s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/srv/ReconfigureDefaults_Request.msg
+[7.685s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/srv/ReconfigureDefaults_Response.msg
+[7.719s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/ament_index/resource_index/package_run_dependencies/camera_driver_srvs
+[7.737s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/ament_index/resource_index/parent_prefix_path/camera_driver_srvs
+[7.755s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/environment/ament_prefix_path.sh
+[7.801s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/environment/ament_prefix_path.dsv
+[7.836s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/environment/path.sh
+[7.857s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/environment/path.dsv
+[7.874s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/local_setup.bash
+[7.891s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/local_setup.sh
+[7.905s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/local_setup.zsh
+[7.921s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/local_setup.dsv
+[7.938s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/package.dsv
+[7.965s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/ament_index/resource_index/packages/camera_driver_srvs
+[7.990s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/rosidl_cmake-extras.cmake
+[8.006s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.022s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.038s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.055s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[8.074s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.090s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.106s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/camera_driver_srvsConfig.cmake
+[8.124s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/camera_driver_srvsConfig-version.cmake
+[8.143s] -- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/package.xml
+[8.167s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_generator_c.so
+[8.170s] -- Set runtime path of "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_generator_c.so" to ""
+[8.170s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_typesupport_fastrtps_c.so
+[8.174s] -- Set runtime path of "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.175s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_typesupport_introspection_c.so
+[8.178s] -- Set runtime path of "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_typesupport_introspection_c.so" to ""
+[8.178s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_typesupport_c.so
+[8.180s] -- Set runtime path of "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_typesupport_c.so" to ""
+[8.181s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_typesupport_fastrtps_cpp.so
+[8.182s] -- Set runtime path of "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.183s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_typesupport_introspection_cpp.so
+[8.185s] -- Set runtime path of "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.187s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_typesupport_cpp.so
+[8.189s] -- Set runtime path of "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_typesupport_cpp.so" to ""
+[8.255s] Listing '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs'...
+[8.255s] Compiling '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/__init__.py'...
+[8.256s] Listing '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/srv'...
+[8.256s] Compiling '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/srv/__init__.py'...
+[8.256s] Compiling '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/srv/_configure_camera.py'...
+[8.256s] Compiling '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/local/lib/python3.10/dist-packages/camera_driver_srvs/srv/_reconfigure_defaults.py'...
+[8.270s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_generator_py.so
+[8.271s] -- Set runtime path of "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/lib/libcamera_driver_srvs__rosidl_generator_py.so" to ""
+[8.271s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/export_camera_driver_srvs__rosidl_generator_cExport.cmake
+[8.272s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/export_camera_driver_srvs__rosidl_generator_cExport-noconfig.cmake
+[8.272s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/export_camera_driver_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.279s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/export_camera_driver_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.279s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/camera_driver_srvs__rosidl_typesupport_introspection_cExport.cmake
+[8.280s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/camera_driver_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.280s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/camera_driver_srvs__rosidl_typesupport_cExport.cmake
+[8.280s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/camera_driver_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[8.280s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/export_camera_driver_srvs__rosidl_generator_cppExport.cmake
+[8.280s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/export_camera_driver_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.280s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/export_camera_driver_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.281s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/camera_driver_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[8.281s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/camera_driver_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.289s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/camera_driver_srvs__rosidl_typesupport_cppExport.cmake
+[8.289s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/camera_driver_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.290s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/export_camera_driver_srvs__rosidl_generator_pyExport.cmake
+[8.290s] -- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver_srvs/share/camera_driver_srvs/cmake/export_camera_driver_srvs__rosidl_generator_pyExport-noconfig.cmake
+[8.297s] Invoked command in '/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/camera_driver_srvs

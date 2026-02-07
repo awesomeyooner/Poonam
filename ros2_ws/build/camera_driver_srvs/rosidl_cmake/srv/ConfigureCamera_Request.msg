@@ -1,0 +1,3 @@
+int64 width -1
+int64 height -1
+int64 fps -1

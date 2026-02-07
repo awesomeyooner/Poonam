@@ -1,0 +1,2 @@
+source;share/depthai_driver/environment/ament_prefix_path.sh
+source;share/depthai_driver/environment/path.sh

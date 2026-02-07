@@ -1,0 +1,152 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found hardware_interface: 2.50.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nlohmann_json: /home/dev/anaconda3/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found suitable version "3.11.2", minimum required is "3.2.0") 
+-- Found nlohmann_json: /home/dev/anaconda3/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.2") 
+-- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/microros_hardware_interface
+[35m[1mConsolidate compiler generated dependencies of target microros_hardware_interface[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/microros_hardware_interface.dir/hardware/diffbot_system.cpp.o[0m
+In file included from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/include/microros_hardware_interface/interfaces/motor_interface.hpp:4[m[K,
+                 from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/include/microros_hardware_interface/diffbot_system.hpp:35[m[K,
+                 from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/diffbot_system.cpp:15[m[K:
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/include/microros_hardware_interface/interfaces/topic_interface.hpp:[m[K In member function ‘[01m[Kvirtual void microros_hardware_interface::TopicInterface::initialize(std::shared_ptr<microros_hardware_interface::MasterNode>, const string&, const string&, microros_hardware_interface::HardwareTopic*, std::vector<microros_hardware_interface::HardwareTopic>*)[m[K’:
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/include/microros_hardware_interface/interfaces/topic_interface.hpp:106:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<microros_hardware_interface::HardwareTopic>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  106 |                 for(int i = 0; [01;35m[Ki < state_topics->size()[m[K; i++){
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/include/microros_hardware_interface/interfaces/topic_interface.hpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> microros_hardware_interface::TopicInterface::get_state_interfaces(std::string)[m[K’:
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/include/microros_hardware_interface/interfaces/topic_interface.hpp:148:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<microros_hardware_interface::HardwareTopic>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  148 |                 for(int i = 0; [01;35m[Ki < states->size()[m[K; i++){
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/include/microros_hardware_interface/diffbot_system.hpp:35[m[K,
+                 from [01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/diffbot_system.cpp:15[m[K:
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/include/microros_hardware_interface/interfaces/motor_interface.hpp:[m[K In constructor ‘[01m[Kmicroros_hardware_interface::MotorInterface::MotorInterface(std::shared_ptr<microros_hardware_interface::MasterNode>, const string&, const string&, const string&, const double&, const bool&)[m[K’:
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/include/microros_hardware_interface/interfaces/motor_interface.hpp:118:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmicroros_hardware_interface::MotorInterface::joint_name[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  118 |             std::string [01;35m[Kjoint_name[m[K;
+      |                         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/include/microros_hardware_interface/interfaces/motor_interface.hpp:52:32:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Kmicroros_hardware_interface::TopicInterface[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   52 |                 TopicInterface([01;35m[K)[m[K{
+      |                                [01;35m[K^[m[K
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/include/microros_hardware_interface/interfaces/motor_interface.hpp:50:13:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   50 |             [01;35m[KMotorInterface[m[K(std::shared_ptr<MasterNode> node, const std::string& joint, const std::string& topic, const std::string& prefix, const double& conversion, const bool& invert) :
+      |             [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/include/microros_hardware_interface/interfaces/motor_interface.hpp:[m[K In member function ‘[01m[Kvoid microros_hardware_interface::MotorInterface::set_conversion(const double&, std::vector<microros_hardware_interface::HardwareTopic>*)[m[K’:
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/include/microros_hardware_interface/interfaces/motor_interface.hpp:85:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<microros_hardware_interface::HardwareTopic>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   85 |                 for(int i = 0; [01;35m[Ki < hardware_topics->size()[m[K; i++){
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/include/microros_hardware_interface/interfaces/motor_interface.hpp:[m[K In member function ‘[01m[Kvoid microros_hardware_interface::MotorInterface::set_inverted(const bool&, std::vector<microros_hardware_interface::HardwareTopic>*)[m[K’:
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/include/microros_hardware_interface/interfaces/motor_interface.hpp:100:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<microros_hardware_interface::HardwareTopic>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  100 |                 for(int i = 0; [01;35m[Ki < hardware_topics->size()[m[K; i++){
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> microros_hardware_interface::MicroSystemHardware::export_state_interfaces()[m[K’:
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/diffbot_system.cpp:70:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<microros_hardware_interface::MotorInterface> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   70 |   for(int i = 0; [01;35m[Ki < motors.size()[m[K; i++){
+      |                  [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> microros_hardware_interface::MicroSystemHardware::export_command_interfaces()[m[K’:
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/diffbot_system.cpp:88:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<microros_hardware_interface::MotorInterface> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   88 |   for(int i = 0; [01;35m[Ki < motors.size()[m[K; i++){
+      |                  [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type microros_hardware_interface::MicroSystemHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/diffbot_system.cpp:116:115:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  116 | hardware_interface::return_type MicroSystemHardware::read(const rclcpp::Time & /*time*/, [01;35m[Kconst rclcpp::Duration & period[m[K){
+      |                                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type microros_hardware_interface::MicroSystemHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/dev/Documents/GitHub/Polar-Two/ros2_ws/src/microros_hardware_interface/hardware/diffbot_system.cpp:131:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<microros_hardware_interface::MotorInterface> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  131 |   for(int i = 0; [01;35m[Ki < motors.size()[m[K; i++){
+      |                  [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libmicroros_hardware_interface.so[0m
+[100%] Built target microros_hardware_interface
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface//microros_hardware_interface.xml
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/include/microros_hardware_interface/include/microros_hardware_interface/constants.hpp
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/include/microros_hardware_interface/include/microros_hardware_interface/diffbot_system.hpp
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/include/microros_hardware_interface/include/microros_hardware_interface/interfaces/master_node.hpp
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/include/microros_hardware_interface/include/microros_hardware_interface/interfaces/motor_interface.hpp
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/include/microros_hardware_interface/include/microros_hardware_interface/interfaces/topic_interface.hpp
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/include/microros_hardware_interface/include/microros_hardware_interface/util/pid_controller.hpp
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/include/microros_hardware_interface/include/microros_hardware_interface/util/timestamped_value.hpp
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/include/microros_hardware_interface/include/microros_hardware_interface/util/utility.hpp
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/include/microros_hardware_interface/include/microros_hardware_interface/visibility_control.h
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/launch/view_robot.launch.py
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/ros2_control/microros_hardware.ros2_control.xacro
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/rviz/carlikebot.rviz
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/rviz/carlikebot_view.rviz
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/rviz/view.rviz
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/assets/caster/caster.mtl
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/assets/caster/caster.obj
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/assets/chassis/Chassis.mtl
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/assets/chassis/Chassis.obj
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/assets/chassis/Chassis.stl
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/assets/components/Oak-D.stl
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/assets/wheel/Wheel.mtl
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/assets/wheel/Wheel.obj
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/assets/wheel/Wheel.stl
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/core.urdf.xacro
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/robot.urdf.xacro
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/util/components/driver_camera.xacro
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/util/components/front_oakd.xacro
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/util/components/rplidar.xacro
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/util/constants.xacro
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/util/macros/camera.xacro
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/util/macros/dead_wheel.xacro
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/util/macros/depth_camera.xacro
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/util/macros/imu.xacro
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/util/macros/lidar.xacro
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/util/macros/oakd.xacro
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/util/macros/wheel.xacro
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/description/urdf/util/materials.xacro
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/config/controllers.yaml
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/config/gazebo_controller.yaml
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/config/gz_bridge.yaml
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/launch/controller_manager.launch.py
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/launch/external_controllers.launch.py
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/launch/foxglove.launch.py
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/launch/joint_state_broadcaster.launch.py
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/launch/main.launch.py
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/launch/microros.launch.py
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/launch/robot_state_publisher.launch.py
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/launch/rviz2.launch.py
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/launch/sim.launch.py
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/scripts/launch_microros.sh
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/worlds/empty.world
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/worlds/obstacles.world
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/bringup/worlds/tugbot_depot.world
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/environment/library_path.sh
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/environment/library_path.dsv
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/ament_index/resource_index/package_run_dependencies/microros_hardware_interface
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/ament_index/resource_index/parent_prefix_path/microros_hardware_interface
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/environment/path.sh
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/environment/path.dsv
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/local_setup.bash
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/local_setup.sh
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/local_setup.zsh
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/local_setup.dsv
+-- Symlinking: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/package.dsv
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/ament_index/resource_index/packages/microros_hardware_interface
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/microros_hardware_interface
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/cmake/microros_hardware_interfaceConfig.cmake
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/cmake/microros_hardware_interfaceConfig-version.cmake
+-- Up-to-date symlink: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/package.xml
+-- Installing: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/lib/libmicroros_hardware_interface.so
+-- Set runtime path of "/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/lib/libmicroros_hardware_interface.so" to ""
+-- Up-to-date: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/cmake/export_microros_hardware_interfaceExport.cmake
+-- Up-to-date: /home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/cmake/export_microros_hardware_interfaceExport-noconfig.cmake
