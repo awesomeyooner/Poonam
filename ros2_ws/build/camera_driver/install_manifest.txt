@@ -1,3 +1,0 @@
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver/lib/camera_driver/camera_driver_node
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver/share/camera_driver/cmake/camera_driverTargetsExport.cmake
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/camera_driver/share/camera_driver/cmake/camera_driverTargetsExport-noconfig.cmake

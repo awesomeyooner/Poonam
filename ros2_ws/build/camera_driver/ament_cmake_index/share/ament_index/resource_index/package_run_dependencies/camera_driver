@@ -1,1 +1,0 @@
-rclcpp;std_msgs;sensor_msgs;geometry_msgs;pluginlib;rclcpp_lifecycle;cv_bridge;camera_driver_srvs;generate_parameter_library;ros2launch;rviz2;xacro;ament_lint_auto;ament_lint_common

@@ -1,3 +1,0 @@
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/lib/libdifferential_drive_controller.so
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/cmake/export_differential_drive_controllerExport.cmake
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/differential_drive_controller/share/differential_drive_controller/cmake/export_differential_drive_controllerExport-noconfig.cmake

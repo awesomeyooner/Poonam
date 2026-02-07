@@ -1,9 +1,0 @@
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/depthai_driver/CMakeFiles/uninstall.dir
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/depthai_driver/CMakeFiles/depthai_driver_uninstall.dir
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/depthai_driver/CMakeFiles/test.dir
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/depthai_driver/CMakeFiles/edit_cache.dir
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/depthai_driver/CMakeFiles/rebuild_cache.dir
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/depthai_driver/CMakeFiles/list_install_components.dir
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/depthai_driver/CMakeFiles/install.dir
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/depthai_driver/CMakeFiles/install/local.dir
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/build/depthai_driver/CMakeFiles/install/strip.dir

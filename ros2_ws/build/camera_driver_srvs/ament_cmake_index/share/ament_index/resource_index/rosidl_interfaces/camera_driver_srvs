@@ -1,8 +1,0 @@
-srv/ConfigureCamera.idl
-srv/ConfigureCamera.srv
-srv/ConfigureCamera_Request.msg
-srv/ConfigureCamera_Response.msg
-srv/ReconfigureDefaults.idl
-srv/ReconfigureDefaults.srv
-srv/ReconfigureDefaults_Request.msg
-srv/ReconfigureDefaults_Response.msg

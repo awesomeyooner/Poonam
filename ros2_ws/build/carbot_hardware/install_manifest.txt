@@ -1,3 +1,0 @@
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/lib/libcarbot_hardware.so
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/cmake/export_carbot_hardwareExport.cmake
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/carbot_hardware/share/carbot_hardware/cmake/export_carbot_hardwareExport-noconfig.cmake

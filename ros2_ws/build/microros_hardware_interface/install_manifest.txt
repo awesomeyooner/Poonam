@@ -1,3 +1,0 @@
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/lib/libmicroros_hardware_interface.so
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/cmake/export_microros_hardware_interfaceExport.cmake
-/home/dev/Documents/GitHub/Polar-Two/ros2_ws/install/microros_hardware_interface/share/microros_hardware_interface/cmake/export_microros_hardware_interfaceExport-noconfig.cmake
