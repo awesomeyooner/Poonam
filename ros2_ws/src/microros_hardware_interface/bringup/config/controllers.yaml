@@ -13,12 +13,12 @@ differential_drive_controller:
     command_topic: /cmd_vel
     command_type: velocity
     feedback_types: ["velocity", "position"]
-    left_wheel_names: ["left_wheel_joint"]
-    right_wheel_names: ["right_wheel_joint"]
+    left_wheel_names: ["front_left_wheel_joint", "back_left_wheel_joint"]
+    right_wheel_names: ["front_right_wheel_joint", "back_right_wheel_joint"]
 
-    wheels_per_side: 1
-    wheel_separation: 0.2845
-    wheel_radius: 0.032
+    wheels_per_side: 2
+    wheel_separation: 0.350
+    wheel_radius: 0.1
 
     odom_frame_id: "odom"
     base_frame_id: base_link

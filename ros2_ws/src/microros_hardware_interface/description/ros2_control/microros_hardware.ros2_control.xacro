@@ -74,8 +74,11 @@
           <plugin>ign_ros2_control/IgnitionSystem</plugin>
         </hardware>
 
-        <xacro:motor name="left_wheel_joint"/>
-        <xacro:motor name="right_wheel_joint"/>
+        <xacro:motor name="front_left_wheel_joint"/>
+        <xacro:motor name="front_right_wheel_joint"/>
+        
+        <xacro:motor name="back_left_wheel_joint"/>
+        <xacro:motor name="back_right_wheel_joint"/>
         
       </ros2_control>
       

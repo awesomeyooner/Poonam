@@ -23,7 +23,7 @@ find_package(
   nlohmann_json 3.2.0 REQUIRED
   CONFIG
     PATHS "/home/dev/anaconda3/share/cmake/nlohmann_json"
-    )
+)
 
 
 ## COMPILE

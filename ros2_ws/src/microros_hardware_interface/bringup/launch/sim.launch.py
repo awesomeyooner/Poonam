@@ -142,5 +142,5 @@ def generate_launch_description():
         rviz,
         ros_gz_image_bridge,
 
-        slam_toolbox_launch
+        # slam_toolbox_launch
     ])

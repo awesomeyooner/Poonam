@@ -1,41 +1,45 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
+    <!-- Macro Header -->
     <xacro:macro name="wheel" params="name x y z front side">
     
+        <!-- Create Link -->
         <link name="${name}_wheel">
 
             <!-- COLLISION -->
             <collision>
-            <origin xyz="0 0 0" rpy="0 0 0"/>
+                <origin xyz="0 0 0" rpy="0 0 0"/>
                 
-            <geometry>
-                <!-- <mesh filename="file://$(find microros_hardware_interface)/description/urdf/assets/wheel/Wheel.stl"/> -->
-                <sphere radius="${wheel_radius}" />
-            </geometry>
+                <geometry>
+                    <!-- <mesh filename="file://$(find microros_hardware_interface)/description/urdf/assets/wheel/Wheel.stl"/> -->
 
-            <surface>
-                <friction>
-                    <ode>
-                    <mu value="${friction}"/>
-                    <mu2 value="${friction}"/>
-                    <!-- <min_depth value="${min_depth}"/> -->
-                    <!-- <slip1 value="1"/>
-                    <slip2 value="1"/> -->
-                    </ode>
+                    <!-- Collision Calculations are easier with sphere rather than STL -->
+                    <sphere radius="${wheel_radius}" />
+                </geometry>
 
-                    <torsional>
-                    <coefficient>0.0</coefficient>
-                    </torsional>
-                </friction>
+                <surface>
+                    <friction>
+                        <ode>
+                        <mu value="${friction}"/>
+                        <mu2 value="${friction}"/>
+                        <!-- <min_depth value="${min_depth}"/> -->
+                        <!-- <slip1 value="1"/> -->
+                        <!-- <slip2 value="1"/> -->
+                        </ode>
 
-                <contact>
-                    <ode>
-                    <min_depth value="${min_depth}"/>
-                    <!-- <kp>1e15</kp>
-                    <kd>1e13</kd> -->
-                    </ode>
-                </contact>
+                        <torsional>
+                        <coefficient>0.0</coefficient>
+                        </torsional>
+                    </friction>
+
+                    <contact>
+                        <ode>
+                        <min_depth value="${min_depth}"/>
+                        <!-- <kp>1e15</kp>
+                        <kd>1e13</kd> -->
+                        </ode>
+                    </contact>
 
                 </surface>
             </collision>
@@ -63,17 +67,24 @@
             </inertial>
         </link>
 
+        <!-- Set Gazebo Params -->
         <gazebo reference="${name}_wheel">
-            <material>Gazebo/Black</material>
+            <!-- <material>Gazebo/Black</material> -->
             <mu1 value="10"/>
             <mu2 value="10"/>
         </gazebo>
 
+        <!-- Create Joint -->
         <joint name="${name}_wheel_joint" type="continuous">
+            <!-- Parent - Child -->
             <parent link="${prefix}chassis_link"/>
             <child link="${name}_wheel"/>
-            <origin xyz="${front * .150} ${side * .175} 0" rpy="${side * -PI/2}  0 0"/>
-            <axis xyz="0 0 ${-side}"/>
+
+            <!-- Origins and Axis Frames -->
+            <origin xyz="${x} ${y} ${z}" rpy="${side * -PI/2}  0 0"/>
+            <axis xyz="0 0 ${side}"/>
+            
+            <!-- Gazebo Params -->
             <limit effort="1000.0" velocity="100.0"/>
             <dynamics damping="${damping}"/>
 
