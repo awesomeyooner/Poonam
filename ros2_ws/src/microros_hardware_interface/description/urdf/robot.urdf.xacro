@@ -9,54 +9,15 @@
     <!-- Base Footprint -->
     <link name="${prefix}base_footprint"/>
 
-    <!-- Chassis -->
-    <link name="${prefix}chassis_link">
-
-      <!-- COLLISION -->
-      <collision>
-        <origin xyz="0 0 0" rpy="0 0 ${PI/2}"/>
-        <geometry>
-          <mesh filename="file://$(find microros_hardware_interface)/description/urdf/assets/chassis/Chassis.stl"/>
-        </geometry>
-      </collision>
-
-      <!-- VISUAL -->
-      <visual>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
-        <geometry>
-          <mesh filename="file://$(find microros_hardware_interface)/description/urdf/assets/chassis/Chassis.dae"/>
-        </geometry>
-        <cast_shadows>true</cast_shadows>
-      </visual>
-
-      <!-- INERTIAL -->
-      <inertial>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
-        <mass value="${base_mass}"/>
-          <inertia
-            ixx="${0.01952332}" ixy="0.0" ixz="0.0"
-            iyy="${0.01450326}" iyz="${-0.00000016}"
-            izz="${0.02678084}"/>
-        </inertial>
-    </link>
-
-    <gazebo reference="chassis_link">
-      <!-- <material>Gazebo/Grey</material> -->
-    </gazebo>
-
-    <joint name="${prefix}chassis_joint" type="fixed">
-      <parent link="${prefix}base_link"/>
-      <child link="${prefix}chassis_link"/>
-      <origin xyz="0 0 ${wheel_radius}" rpy="0 0 0"/>
-      <axis xyz="0 0 1"/>
-      <dynamics damping="${damping}"/>
-    </joint>
-
+    <!-- Base Link - Base Footprint -->
     <joint name="${prefix}base_footprint_joint" type="fixed">
       <parent link="${prefix}base_link"/>
       <child link="${prefix}base_footprint"/>
       <origin xyz="0 0 0" rpy="0 0 0"/>
     </joint>
+
+    <!-- Chassis -->
+    <xacro:include filename="$(find microros_hardware_interface)/description/urdf/components/chassis.xacro" />
 
     <!-- Wheels -->
 
