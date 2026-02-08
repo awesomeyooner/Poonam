@@ -20,13 +20,7 @@
     <xacro:include filename="$(find microros_hardware_interface)/description/urdf/components/chassis.xacro" />
 
     <!-- Wheels -->
-
-      <!--front is positive, left is positive-->
-      <xacro:wheel name="front_left" x="${front_left_wheel_x}" y="${front_left_wheel_y}" z="${front_left_wheel_z}" front="1" side="1"/>
-      <xacro:wheel name="front_right" x="${front_right_wheel_x}" y="${front_right_wheel_y}" z="${front_right_wheel_z}" front="1" side="-1"/>
-
-      <xacro:wheel name="back_left" x="${back_left_wheel_x}" y="${back_left_wheel_y}" z="${back_left_wheel_z}" front="-1" side="1"/>
-      <xacro:wheel name="back_right" x="${back_right_wheel_x}" y="${back_right_wheel_y}" z="${back_right_wheel_z}" front="-1" side="-1"/>
+    <xacro:include filename="$(find microros_hardware_interface)/description/urdf/components/wheels.xacro" />
 
   </xacro:macro>
 
