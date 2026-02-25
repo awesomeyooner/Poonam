@@ -68,6 +68,16 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
+        back_left_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        back_right_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         base_footprint:
           Alpha: 1
           Show Axes: false
@@ -81,22 +91,12 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        left_caster_wheel:
+        front_left_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        left_wheel:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        right_caster_wheel:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        right_wheel:
+        front_right_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -128,19 +128,21 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: false
+        back_left_wheel:
+          Value: true
+        back_right_wheel:
+          Value: true
         base_footprint:
           Value: true
         base_link:
           Value: true
         chassis_link:
           Value: false
-        left_caster_wheel:
-          Value: false
-        left_wheel:
+        front_left_wheel:
           Value: true
-        right_caster_wheel:
-          Value: false
-        right_wheel:
+        front_right_wheel:
+          Value: true
+        odom:
           Value: true
       Marker Scale: 1
       Name: TF
@@ -152,14 +154,16 @@ Visualization Manager:
           base_footprint:
             {}
           chassis_link:
-            left_caster_wheel:
+            back_left_wheel:
               {}
-            left_wheel:
+            back_right_wheel:
               {}
-            right_caster_wheel:
+            front_left_wheel:
               {}
-            right_wheel:
+            front_right_wheel:
               {}
+        odom:
+          {}
       Update Interval: 0
       Value: true
     - Angle Tolerance: 0.10000000149011612
@@ -259,7 +263,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: base_link
+    Fixed Frame: odom
     Frame Rate: 30
   Name: root
   Tools:
@@ -302,7 +306,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 1.469738483428955
+      Distance: 3.6665544509887695
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -317,10 +321,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.1053987368941307
+      Pitch: 1.4997963905334473
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz_default_plugins)
-      Yaw: 1.2853977680206299
+      Yaw: 3.015397548675537
     Saved: ~
 Window Geometry:
   Displays:
