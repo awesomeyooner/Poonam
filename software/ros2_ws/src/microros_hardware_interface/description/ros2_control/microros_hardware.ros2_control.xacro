@@ -69,9 +69,9 @@
     <xacro:if value="$(arg sim_mode)">
 
       <!-- Setup ros2_control -->
-      <ros2_control name="IgnitionSystem" type="system">
+      <ros2_control name="GazeboSimSystem" type="system">
         <hardware>
-          <plugin>ign_ros2_control/IgnitionSystem</plugin>
+          <plugin>gz_ros2_control/GazeboSimSystem</plugin>
         </hardware>
 
         <xacro:motor name="front_left_wheel_joint"/>
@@ -84,7 +84,7 @@
       
       <!-- Setup Gazebo -->
       <gazebo>
-        <plugin name="ign_ros2_control::IgnitionROS2ControlPlugin" filename="ign_ros2_control-system">
+        <plugin name="gz_ros2_control::GazeboSimROS2ControlPlugin" filename="gz_ros2_control-system">
           <!-- Controller Settings -->
           <parameters>$(find microros_hardware_interface)/bringup/config/controllers.yaml</parameters>
 
